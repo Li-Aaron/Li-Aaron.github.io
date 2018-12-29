@@ -1,9 +1,9 @@
 # Basic
 title: Aaron Li's Blog
 subtitle: In solitude, where we are least alone.
-welcome_message: This is welcome message.
-description: This is description.
-# creator: <a href="http://onev.cat">@onevcat</a>
+welcome_message: Learning everyday, let past be worse than today.
+description: 一名萌新程序员.
+creator: <a href="https://github.com/Li-Aaron">@Aaron Li</a>
 
 # url: "http://vno.onevcat.com"
 
@@ -18,11 +18,11 @@ cover_color: orange
 # The blog button should not be removed.
 blog_button:
     title: Blog
-    description: Visit blog
+    description: Visit my Blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Cnblogs, description: My Cnblog, url: 'https://www.cnblogs.com/ac2sherry/'}
+    - {title: Old Blog, description: Visit my Cnblog, url: 'https://www.cnblogs.com/ac2sherry/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -40,7 +40,7 @@ social:
     weibo: ac2sherry
     github: Li-Aaron
     # twitter: 
-    # gplus: 107108267983477358170
+    # gplus: 
     mail: ac2sherry@126.com
 
 # Google Analytics
