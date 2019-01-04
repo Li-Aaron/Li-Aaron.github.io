@@ -11,9 +11,14 @@ layout: default
   </header>
 
   <section class="post">
+    <div id="renderIn"></div>
+    <section id="mainpost" class="post">
     {{ content }}
+    </section>
   </section>
 </article>
 
 {% include read-more.html %}
 {% include comments.html %}
+{% include back-top.html %}
+{% include toc.html %}

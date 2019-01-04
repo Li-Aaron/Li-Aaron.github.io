@@ -21,14 +21,14 @@ date: 2018-04-30 17:51:00.000000000 +08:00
 
 
 
-## 1. 安装：
+## 1. 安装
 
 下载gvim8.0安装就可以了
 
 刚装完是这个样子的：  
 ![](/assets/images/2018-04-30-windows-gvim/1146999-20180430173011463-1517323194.png)
 
-## 2. 插件安装：
+## 2. 插件安装
 
 选用的插件如下表 （尝试后发现WinManager和SrcExpl冲突，改用Trinity）
 
@@ -43,7 +43,7 @@ date: 2018-04-30 17:51:00.000000000 +08:00
 | [Cscope](http://sourceforge.net/projects/mslk/files/) | ctags的强化版，不仅可以生成源tag还能生成调用tag | 将压缩包解压并将目录加入环境变量path中 |
 | [Trinity](http://www.vim.org/scripts/script.php?script_id=2347) | NERD_Tree+taglist+SrcExpl的组合版 | 解压到.\vimfiles目录下面 |
 
-## 3. 主题安装：
+## 3. 主题安装
 
 vim主题选用monokai，字体选用consolas
 
@@ -58,7 +58,7 @@ hi Folded ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NON
 hi FoldColumn ctermfg=242 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
 ```
 
-## 4.vimrc更改：
+## 4. vimrc更改
 
 在`_vimrc`文件后增加如下：
 
@@ -112,7 +112,7 @@ set expandtab
 set softtabstop=4
 ```
 
-## 5. 一些其他设置：
+## 5. 一些其他设置
 
 tags生成（虽然Source Explore支持每次打开调用时更新，但如果首次打开没有tags会在当前目录生成，如果打开的是工程内部文件就会导致tags不全，所以首次运行最好生成一下）
 
