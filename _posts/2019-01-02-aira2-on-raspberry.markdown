@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 树莓派 RaspBerry 3B+ 配置 aria2 远程下载攻略
+title: 树莓派 RaspberryPi 3B+ 配置 aria2 远程下载攻略
 date: 2019-01-02 18:00:00.000000000 +08:00
 ---
 
@@ -8,7 +8,7 @@ date: 2019-01-02 18:00:00.000000000 +08:00
 
 安装好系统的可以略过。  
 这里选择的系统是[chainsx](https://github.com/chainsx)提供的64位系统[ubuntu-18.04-arm64](https://github.com/chainsx/ubuntu64-rpi/releases/tag/ubuntu-18.04-arm64)。  
-这个系统相比官方的armhf系统优势在于配置简单，官方提供的ubuntu只默认支持RaspBerry 2，3B与3B+均需要根据官方的文档进行更改。  
+这个系统相比官方的armhf系统优势在于配置简单，官方提供的ubuntu只默认支持RaspberryPi 2，3B与3B+均需要根据官方的文档进行更改。  
 且此系统默认的apt源是清华的源，国内下载速度快。  
 
 SD卡烧录工具：[Win32DiskImager](https://sourceforge.net/projects/win32diskimager/files/latest/download)。  
