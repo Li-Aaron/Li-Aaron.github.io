@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 树莓派 RaspberryPi 3B+ 配置 aria2 远程下载攻略
+title: 用树莓派 Raspberry Pi 远程下载 (aria2)
 date: 2019-01-02 18:00:00.000000000 +08:00
 ---
 
@@ -8,7 +8,7 @@ date: 2019-01-02 18:00:00.000000000 +08:00
 
 安装好系统的可以略过。  
 这里选择的系统是[chainsx](https://github.com/chainsx)提供的64位系统[ubuntu-18.04-arm64](https://github.com/chainsx/ubuntu64-rpi/releases/tag/ubuntu-18.04-arm64)。  
-这个系统相比官方的armhf系统优势在于配置简单，官方提供的ubuntu只默认支持RaspberryPi 2，3B与3B+均需要根据官方的文档进行更改。  
+这个系统相比官方的armhf系统优势在于配置简单，官方提供的ubuntu只默认支持Raspberry Pi 2，3B与3B+均需要根据官方的文档进行更改。  
 且此系统默认的apt源是清华的源，国内下载速度快。  
 
 SD卡烧录工具：[Win32DiskImager](https://sourceforge.net/projects/win32diskimager/files/latest/download)。  
@@ -160,9 +160,9 @@ Dec 29 08:25:21 ubuntu aria2c[21855]: 12/29 08:25:21 [NOTICE] Serialized session
 ## 4. AriaNg使用
 
 aira2比较好的web管理界面当属AriaNg。
-有网页版的[AriaNg](https://github.com/mayswind/AriaNg/releases)以及Windows桌面版的[AriaNg-Native](https://github.com/mayswind/AriaNg-Native/releases)，推荐使用网页版的，可以部署在RaspberryPi上。
+有网页版的[AriaNg](https://github.com/mayswind/AriaNg/releases)以及Windows桌面版的[AriaNg-Native](https://github.com/mayswind/AriaNg-Native/releases)，推荐使用网页版的，可以部署在Raspberry Pi上。
 
-### 4.1 将AriaNg部署在RaspberryPi上
+### 4.1 将AriaNg部署在Raspberry Pi上
 
 #### 配置Tomcat服务器
 
@@ -243,7 +243,7 @@ sudo mv aira-ng ~/tomcat7/webapps/ROOT/
 #### 网页版
 
 直接下载[AriaNg](https://github.com/mayswind/AriaNg/releases)，打开`index.html`  
-在AiraNg Settings中，选择RPC选项卡，将Aira2 RPC Address中IP地址和端口号修改为RaspberryPi的IP地址以及前面status中的端口号（默认6800）。
+在AiraNg Settings中，选择RPC选项卡，将Aira2 RPC Address中IP地址和端口号修改为Raspberry Pi的IP地址以及前面status中的端口号（默认6800）。
 
 #### 桌面版
 
@@ -251,7 +251,7 @@ sudo mv aira-ng ~/tomcat7/webapps/ROOT/
 
 ## 5. 公网端口映射
 
-配置好Aria2以及AriaNg后，就可以将RaspberryPi映射到公网上来进行远程下载了。配置公网的方式有以下几种：
+配置好Aria2以及AriaNg后，就可以将Raspberry Pi映射到公网上来进行远程下载了。配置公网的方式有以下几种：
 
 ### 5.1 DMZ主机
 
@@ -272,11 +272,11 @@ TP-Link配置页面：
 
 ![](/assets/images/2019-01-02-aira2-on-raspberry/router_cmcc2.PNG)
 
-这样配置好访问路由器的公网IP地址以及绑定的端口号就可以直接访问到RaspberryPi的相应端口。
+这样配置好访问路由器的公网IP地址以及绑定的端口号就可以直接访问到Raspberry Pi的相应端口。
 
 ### 5.3 获取公网IP地址
 
-访问RaspberryPi还需要获取公网IP地址，而路由的公网IP地址有可能会变化。
+访问Raspberry Pi还需要获取公网IP地址，而路由的公网IP地址有可能会变化。
 
 可以访问
 [https://www.ipchicken.com/](https://www.ipchicken.com/)
@@ -316,9 +316,9 @@ if __name__ == '__main__':
 
   # message
   msg = MIMEText(''+IpAddress, 'plain', 'utf-8')
-  msg['Subject'] = Header('RaspberryPi Ip Address', 'utf-8').encode()
-  msg['From']    = _format_addr('RaspberryPi <%s>' % from_addr)
-  msg['To']      = _format_addr('RaspberryPi Manager <%s>' % to_addr[0])
+  msg['Subject'] = Header('Raspberry Pi Ip Address', 'utf-8').encode()
+  msg['From']    = _format_addr('Raspberry Pi <%s>' % from_addr)
+  msg['To']      = _format_addr('Raspberry Pi Manager <%s>' % to_addr[0])
 
   # send
   try:
@@ -345,7 +345,7 @@ if __name__ == '__main__':
 
 ## 6. 硬盘挂载（可选）
 
-RaspberryPi虽然可以用SD卡扩展存储，但空间毕竟小，若有旧台式机、笔记本硬盘可以套个硬盘盒接在RaspberryPi上。  
+Raspberry Pi虽然可以用SD卡扩展存储，但空间毕竟小，若有旧台式机、笔记本硬盘可以套个硬盘盒接在Raspberry Pi上。  
 3B+ USB口直接带2.5的硬盘或SSD是不需要外接电源的，3.5的没有测试过，但一般是需要的。  
 
 手动挂载的方法如下：
@@ -408,7 +408,7 @@ sudo mount -a
 
 ## 7. SMB服务（可选）
 
-单纯的下载机是不够的，不能总是去插拔硬盘，而通过SMB服务可以用终端设备直接访问到RaspberryPi。  
+单纯的下载机是不够的，不能总是去插拔硬盘，而通过SMB服务可以用终端设备直接访问到Raspberry Pi。  
 
 需要创建一个samba帐号
 
