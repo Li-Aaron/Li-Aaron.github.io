@@ -343,6 +343,55 @@ if __name__ == '__main__':
 
 花生壳会提供一个服务域名，这个域名就相当于公网IP地址。
 
+### 5.5 利用Frp内网穿透
+
+如果有条件（比如有一个VPS），可以通过[Frp](https://github.com/fatedier/frp/blob/master/README_zh.md)作反向代理实现内网穿透。  
+安装参见[Frp 的 GitHub page](https://github.com/fatedier/frp/blob/master/README_zh.md)，有很详细的说明，这里不赘述了。  
+服务器端使用frps 和配置文件frps.ini如下：  
+
+```ini
+[common]
+bind_addr = 0.0.0.0
+bind_port = 5443
+log_file = ./frps.log
+log_level = info
+log_max_days = 3
+# auth token
+token = [your token]
+
+max_pool_count = 50
+tcp_mux = true
+```
+
+Raspberry Pi端使用frpc 和配置文件frpc.ini如下（ip填写服务器的ip，token和服务器端保持一致）：  
+除了aria2的6800端口，还可以将其他端口如ssh，http映射到服务器ip上。  
+
+```ini
+[common]
+server_addr = [your ip]
+server_port = 5443
+token = [your token]
+tcp_mux = true
+
+[aria2]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 6800
+remote_port = 6800
+
+[ssh]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 22
+remote_port = 4022
+
+[http]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 80
+remote_port = 8080
+```
+
 ## 6. 硬盘挂载（可选）
 
 Raspberry Pi虽然可以用SD卡扩展存储，但空间毕竟小，若有旧台式机、笔记本硬盘可以套个硬盘盒接在Raspberry Pi上。  
