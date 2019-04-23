@@ -126,7 +126,6 @@ After=network.target
 
 [Service]
 User=ubuntu
-Type=forking
 ExecStart=/usr/bin/aria2c --conf-path=/home/ubuntu/.config/aria2/aria2.config
 
 [Install]
