@@ -146,7 +146,7 @@ CloudFlare设置好DNS解析，并将Cloudflare nameservers加入到VPS的DNS na
 访问方式 https://nas.your.domain
 
 ## Reference
-[Frp 的 Github page](https://github.com/fatedier/frp/blob/master/README_zh.md)
-[oldiy/frpc](https://hub.docker.com/r/oldiy/frpc)
-[Caddy 的 Github page](https://github.com/caddyserver/caddy#quick-start)。
-[Changing your domain nameservers to Cloudflare](https://support.cloudflare.com/hc/en-us/articles/205195708-Step-3-Change-your-domain-name-servers-to-Cloudflare)
+[Frp 的 Github page](https://github.com/fatedier/frp/blob/master/README_zh.md)  
+[oldiy/frpc](https://hub.docker.com/r/oldiy/frpc)  
+[Caddy 的 Github page](https://github.com/caddyserver/caddy#quick-start)  
+[Changing your domain nameservers to Cloudflare](https://support.cloudflare.com/hc/en-us/articles/205195708-Step-3-Change-your-domain-name-servers-to-Cloudflare)  
