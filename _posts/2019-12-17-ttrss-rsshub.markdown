@@ -170,6 +170,7 @@ Killed
 cd /var
 dd if=/dev/zero of=swapfile bs=1024 count=524288 #512M, 按需调整
 mkswap /var/swapfile
+chmod 0600 /var/swapfile
 /sbin/swapon swapfile
 ```
 在 `/etc/fstab`中增加如下一行
