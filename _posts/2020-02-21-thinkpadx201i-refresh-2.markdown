@@ -37,7 +37,7 @@ Intel 112BNHMW 与 MI wifi
 
 ## 2. 更换网卡
 
-鉴于拆过一次机了，这里不再展示拆机图片，原机自带的网卡是半高PCIE，更换同借口支持802.11ac和bluetooth的[Intel7260HMW](https://ark.intel.com/content/www/cn/zh/ark/products/75439/intel-dual-band-wireless-ac-7260.html)，某宝有很多版本，购买的时候**不要**买带FRU
+鉴于拆过一次机了，这里不再展示拆机图片，原机自带的网卡是半高PCIE，更换同接口支持802.11ac和bluetooth的[Intel7260HMW](https://ark.intel.com/content/www/cn/zh/ark/products/75439/intel-dual-band-wireless-ac-7260.html)，某宝有很多版本，购买的时候**不要**买带FRU
 的联想专用（贵，已经刷掉白名单不必要）。
 
 Intel 7260HMW
