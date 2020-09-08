@@ -32,7 +32,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: li-aaron
+    # disqus: li-aaron
     # duoshuo:
 
 # Social
