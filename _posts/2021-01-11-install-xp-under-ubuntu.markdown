@@ -32,7 +32,7 @@ date: 2021-1-11 18:00:00.000000000 +08:00
 Boot的时候提示`Failed to load ldlinux.c32`
 ![Fail to boot](/assets/images/2021-01-11-install-xp-under-ubuntu/ubuntu-ultraISO-fail.jpg)
 
-这里用Rufus生成安装盘。
+这里用[Rufus](https://rufus.ie/zh_CN.html)生成安装盘。
 ![Rufus-image-gen](/assets/images/2021-01-11-install-xp-under-ubuntu/rufus-ubuntu.png)
 
 成功启动Live Ubuntu。
@@ -102,7 +102,7 @@ Sorce Partition就是GHO文件中的镜像，直接OK。
 ## 4. 修复Ubuntu引导
 
 要让Ubuntu系统回来，需要重建Ubuntu的grub。  
-这里推荐Ubuntu官方的教程[Recovering Ubuntu After Installing Windows](https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows).  
+这里推荐Ubuntu官方的教程[Recovering Ubuntu After Installing Windows](https://help.ubuntu.com/community/RecoveringUbuntuAfterInstallingWindows)。  
 
 在Live CD的Terminal下，键入如下命令：  
 ```bash
@@ -130,7 +130,7 @@ sudo apt-get install -y boot-repair && boot-repair
 使用Rufus生成XP的U盘安装盘：  
 ![Rufus-image-gen-xp](/assets/images/2021-01-11-install-xp-under-ubuntu/rufus-winxp.png)
 
-安装时提示没有镜像，安装直接退出  
+安装时提示没有镜像，安装直接退出。  
 ![xpU盘安装失败](/assets/images/2021-01-11-install-xp-under-ubuntu/windows-xp-install-fail.jpg)
 
 ### 6.2 WinNTSetup，进入安装界面时蓝屏。
