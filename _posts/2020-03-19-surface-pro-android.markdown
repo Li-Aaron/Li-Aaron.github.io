@@ -5,7 +5,7 @@ date: 2020-03-19 18:00:00.000000000 +08:00
 ---
 
 收拾箱子的时候，发现老surface pro在箱底好多年了，这款14年买的初代surface pro已经不能满足现在windows 10的需求了，简直卡到爆炸。  
-但是Linux系统在[去年复活了老Thinkpad X201i](_site_/2019/11/thinkpadx201i-refresh/)之后，已经有一台了，再多一台反而累赘。
+但是Linux系统在[去年复活了老Thinkpad X201i]({{site.url}}/2019/11/thinkpadx201i-refresh/)之后，已经有一台了，再多一台反而累赘。
 
 ![surface](/assets/images/2020-03-19-surface-pro-android/surface.jpg)
 

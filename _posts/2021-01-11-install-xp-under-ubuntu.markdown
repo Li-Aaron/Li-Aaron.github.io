@@ -5,7 +5,7 @@ date: 2021-1-11 18:00:00.000000000 +08:00
 ---
 
 
-继[去年给老Thinkpad X201i换了网卡](_site_/2020/02/thinkpadx201i-refresh-2/)之后，用了一段时间，网速快起来了。  
+继[去年给老Thinkpad X201i换了网卡]({{site.url}}/2020/02/thinkpadx201i-refresh-2/)之后，用了一段时间，网速快起来了。  
 
 最近看了一些关于暗黑破坏神2的情怀文章，突然就想玩了，结果发现主力机Win10各种兼容性问题。  
 ![We-have-a-big-error](/assets/images/2021-01-11-install-xp-under-ubuntu/we-got-a-big-error.png)
@@ -18,7 +18,7 @@ date: 2021-1-11 18:00:00.000000000 +08:00
 ![Diablo-no-d3d](/assets/images/2021-01-11-install-xp-under-ubuntu/diablo-no-d3d.png) 
 -->
 
-所以我选择在这台[老电脑](_site_/2020/02/thinkpadx201i-refresh/)上装一个XP双系统。  
+所以我选择在这台[老电脑]({{site.url}}/2020/02/thinkpadx201i-refresh/)上装一个XP双系统。  
 
 ## 0. 准备工作
 

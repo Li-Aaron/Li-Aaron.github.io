@@ -92,7 +92,7 @@ docker-compose up -d
 
 ## 4. Caddy反向代理
 
-具体的Caddy反向代理和Cloudflare CDN加速可以参考之前写的[蜗牛星际+Frp+Caddy+Cloudflare折腾记](_site_/2019/07/nas-frp-caddy-cloudfare/)
+具体的Caddy反向代理和Cloudflare CDN加速可以参考之前写的[蜗牛星际+Frp+Caddy+Cloudflare折腾记]({{site.url}}/2019/07/nas-frp-caddy-cloudfare/)
 
 这里给出具体的Caddyfile
 ```ini
@@ -249,5 +249,5 @@ example.com {
 [RSSHub](https://docs.rsshub.app/)  
 [如何搭建属于自己的 RSS 服务，高效精准获取信息](https://sspai.com/post/41302)  
 [（另一篇）Tiny Tiny RSS 教程](https://sspai.com/post/42787)  
-[蜗牛星际+Frp+Caddy+Cloudflare折腾记](_site/2019/07/nas-frp-caddy-cloudfare/)  
+[蜗牛星际+Frp+Caddy+Cloudflare折腾记]({{site.url}}/2019/07/nas-frp-caddy-cloudfare/)  
 [Vultr VPS内存不足怎么办？增加SWAP交换分区可以解决](http://vultr.idcspy.com/464.html)

@@ -4,7 +4,7 @@ title: 老电脑焕发第二春，Thinkpad X201i复活记（续）
 date: 2020-02-21 18:00:00.000000000 +08:00
 ---
 
-继[去年复活了老Thinkpad X201i](_site_/2019/11/thinkpadx201i-refresh/)之后，用了一段时间，无论是写文章还是调试网络还是比较方便的。
+继[去年复活了老Thinkpad X201i]({{site.url}}/2019/11/thinkpadx201i-refresh/)之后，用了一段时间，无论是写文章还是调试网络还是比较方便的。
 
 特别是linux系统弥补了主力机上装vbox带来的不便捷。
 
