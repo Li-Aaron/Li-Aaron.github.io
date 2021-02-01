@@ -28,7 +28,7 @@ date: 2021-01-31 18:00:00.000000000 +08:00
 首先拆掉键盘。红圈中标记的螺丝是屏线螺丝，提前拆下。  
 ![removekeyboard](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removekeyboard.jpg)
 
-习惯的顺手拆掉了手托，其实这次没有必要拆，不过拆掉受托方便拆键盘外框。  
+习惯的顺手拆掉了手托，其实这次没有必要拆，不过拆掉手托方便拆键盘外框。  
 ![removehandplate](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removehandplate.jpg)
 
 拆键盘外框注意下方的红圈对应背面的螺丝需要拧下来。  
