@@ -12,3 +12,16 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
+
+<!-- Google Analytics v4-->
+{% if site.ga4.id %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.ga4.id}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.ga4.id}}');
+</script>
+{% endif %}

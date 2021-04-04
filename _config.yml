@@ -47,3 +47,7 @@ social:
 ga:
     id: UA-131530384-1
     host: li-Aaron.github.io
+
+# Google Analytics v4
+ga4:
+    id: G-NTXPN919ZG
