@@ -11,7 +11,7 @@ date: 2021-04-06 09:00:00.000000000 +08:00
 ![装修时间线2](/assets/images/2021-04-06-decoration-2/ShiJianXian_2.jpg)
 
 ## Day 0 前言
-[去年开始写了一篇二手房装修笔记](_site_/2020/09/decoration-1/)，后续这个坑留了很久。  
+[去年开始写了一篇二手房装修笔记]({{site.url}}/2020/09/decoration-1/)，后续这个坑留了很久。  
 鉴于再不填就忘干净了，趁着假期把剩下的部分补一补。  
 
 ![厨房](/assets/images/2021-04-06-decoration-2/Kitchen.jpg)
