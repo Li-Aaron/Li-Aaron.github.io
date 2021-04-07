@@ -11,6 +11,7 @@
   </li>
   {% endif %}
 
+
   {% if site.social.github %}
   <!-- Github -->
   <li class="navigation__item">
@@ -20,7 +21,17 @@
     </a>
   </li>
   {% endif %}
-  
+
+  {% if site.social.zhihu %}
+  <!-- Zhihu Column -->
+  <li class="navigation__item">
+    <a href="https://www.zhihu.com/column/{{site.social.zhihu}}" title="我的专栏" target="_blank">
+      <i class="social fab fa-zhihu"></i>
+      <span class="label">Zhihu Column</span>
+    </a>
+  </li>
+  {% endif %}
+
   {% if site.social.twitter %}
   <!-- Twitter -->
   <li class="navigation__item">
