@@ -7,6 +7,12 @@ date: 2019-01-02 18:00:00.000000000 +08:00
 ## 1. 系统安装
 
 安装好系统的可以略过。  
+
+>**2021.04.11更新**：目前ubuntu 20.04 LTS 已经支持 Raspberry Pi 4/3b， 可以直接从官方源下载：  
+>[https://ubuntu.com/download/raspberry-pi](https://ubuntu.com/download/raspberry-pi) -- 下载页面  
+>[https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview) -- 安装说明  
+>感谢[chainsx](https://github.com/chainsx)  
+
 这里选择的系统是[chainsx](https://github.com/chainsx)提供的64位系统[ubuntu-18.04-arm64](https://github.com/chainsx/ubuntu64-rpi/releases/tag/ubuntu-18.04-arm64)。  
 这个系统相比官方的armhf系统优势在于配置简单，官方提供的ubuntu只默认支持Raspberry Pi 2，3B与3B+均需要根据官方的文档进行更改。  
 且此系统默认的apt源是清华的源，国内下载速度快。  
