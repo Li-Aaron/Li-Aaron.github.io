@@ -87,6 +87,11 @@ LibreELEC:~ # find / -name addon.xml | grep repository.xbmc.org
 
 ![Kodi_PVR](/assets/images/2021-04-13-raspberry-kodi/Kodi_PVR.gif)  
 
+频道地址：  
+```
+https://raw.githubusercontent.com/EvilCult/iptv-m3u-maker/master/http/tv.m3u
+```
+
 重启后可以在电视中找到所有频道  
 
 ![kodi_iptv1](/assets/images/2021-04-13-raspberry-kodi/kodi_iptv1.jpg)  
