@@ -54,13 +54,11 @@ SD卡插回Raspberry Pi，开机：
 
 ![kodi_setting4](/assets/images/2021-04-13-raspberry-kodi/kodi_setting4.jpg)
 
-在安装前，要在Setting -- Skin -- Fonts 把Skin Default改成Arial based：  
+在安装前，要在Setting -- Skin -- Fonts 把Skin Default改成Arial based，  
+再切换成中文就不会出现乱码bug了：  
 
 ![Kodi_chinese](/assets/images/2021-04-13-raspberry-kodi/Kodi_chinese.gif)
 
-再切换成中文就不会出现乱码bug了：  
-
-![kodi_setting5](/assets/images/2021-04-13-raspberry-kodi/kodi_setting5.jpg)
 
 ## 3. 安装IPTV插件
 很多时候Kodi是作为一个IPTV存在的，下面介绍下怎么在Kodi上安装IPTV插件。  
