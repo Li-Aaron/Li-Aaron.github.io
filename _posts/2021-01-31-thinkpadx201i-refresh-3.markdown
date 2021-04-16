@@ -2,6 +2,7 @@
 layout: post
 title: 老电脑焕发第二春，Thinkpad X201i复活记（续二）
 date: 2021-01-31 18:00:00.000000000 +08:00
+excerpt: 老电脑系列第三篇，给Thinkpad X201i更换屏幕。
 ---
 
 继[前年复活了老Thinkpad X201i]({{site.url}}/2019/11/thinkpadx201i-refresh/)，以及[去年给老Thinkpad X201i换了网卡]({{site.url}}/2020/02/thinkpadx201i-refresh2/)之后。  

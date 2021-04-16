@@ -69,7 +69,7 @@ SD卡插回Raspberry Pi，开机：
 参考[ustc的XBMC/Kodi 镜像使用帮助](https://mirrors.ustc.edu.cn/help/xbmc.html)  
 >可以使用此镜像服务器来访问 Kodi 官方插件库，避免因网络访问的问题而无法正常安装使用插件。需要编辑 Kodi 安装目录中的 addons/repository.xbmc.org/addon.xml 文件。将其中所有 http://mirrors.kodi.tv/ 替换为 http://mirrors.ustc.edu.cn/xbmc/。  
 
-通过SSH找到了LibreElec的addon.xml文件  
+通过SSH找到了LibreElec的addon.xml文件：  
 
 ```bash
 LibreELEC:~ # find / -name addon.xml | grep repository.xbmc.org
@@ -84,7 +84,7 @@ LibreELEC:~ # find / -name addon.xml | grep repository.xbmc.org
 
 
 ### 3.2 安装IPTV并配置
-一图流  
+一图流：  
 
 ![Kodi_PVR](/assets/images/2021-04-13-raspberry-kodi/Kodi_PVR.gif)  
 
@@ -93,11 +93,11 @@ LibreELEC:~ # find / -name addon.xml | grep repository.xbmc.org
 https://raw.githubusercontent.com/EvilCult/iptv-m3u-maker/master/http/tv.m3u
 ```
 
-重启后可以在电视中找到所有频道  
+重启后可以在电视中找到所有频道：  
 
 ![kodi_iptv1](/assets/images/2021-04-13-raspberry-kodi/kodi_iptv1.jpg)  
 
-随便打开一个频道  
+随便打开一个频道：  
 
 ![kodi_iptv2](/assets/images/2021-04-13-raspberry-kodi/kodi_iptv2.jpg)  
 
@@ -106,17 +106,17 @@ Kodi最主要的功能还是看电影：
 
 ![kodi_movie](/assets/images/2021-04-13-raspberry-kodi/kodi_movie.jpg)
 
-下面讲一讲如何配置这个电影库  
+下面讲一讲如何配置这个电影库。  
 
-### 4.1 SMB文件共享（Windows，Ubuntu）
-**Windows**下共享文件非常简单  
+### 4.1 SMB文件共享
+**Windows**下共享文件非常简单：  
 右键--属性--共享--高级共享--共享此文件夹--确定  
 
 ![smb1](/assets/images/2021-04-13-raspberry-kodi/smb1.png)
 
 之后可以用【*Windows的用户名*】和【*登录密码*】登录SMB服务了。
 
-**Ubuntu**下需要安装smb服务, 在[用树莓派 Raspberry Pi 远程下载 (aria2)/SMB服务（可选）]({{site.url}}/2019/01/aira2-on-raspberry/#tocAnchor-1-16)文中也有提及
+**Ubuntu**下需要安装smb服务, 在[用树莓派 Raspberry Pi 远程下载 (aria2)/SMB服务（可选）]({{site.url}}/2019/01/aira2-on-raspberry/#tocAnchor-1-16)文中也有提及。
 
 ```bash
 sudo apt-get install samba samba-common
@@ -124,7 +124,7 @@ mkdir /home/myshare
 chmod 777 /home/myshare
 vi /etc/samba/smb.conf
 ```
-在smb.conf文件末尾添加
+在smb.conf文件末尾添加：
 ```ini
 [share]
   path = /home/myshare
@@ -133,7 +133,7 @@ vi /etc/samba/smb.conf
   writeable = yes
   #public = yes
 ```
-public注释打开后则不需要输入密码  
+public注释打开后则不需要输入密码。  
 ```bash
 touch /etc/samba/smbpasswd
 smbpasswd -a {当前用户名}
@@ -185,7 +185,7 @@ SMB添加相似，不再过多介绍。
 ![TMM4](/assets/images/2021-04-13-raspberry-kodi/TMM4.png)
 
 一些建议设置（中文版）：  
-电影--刮削器--元数据刮削 选择themobiedb.org，并在host文件中添加  
+电影--刮削器--元数据刮削 选择themobiedb.org，并在host文件中添加：  
 ```
 13.225.62.15 api.themoviedb.org
 ```

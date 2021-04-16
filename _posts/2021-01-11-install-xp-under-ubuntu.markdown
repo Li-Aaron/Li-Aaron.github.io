@@ -2,6 +2,7 @@
 layout: post
 title: 在Ubuntu下安装Windows XP实现双系统
 date: 2021-1-11 18:00:00.000000000 +08:00
+excerpt: 老电脑系列番外篇，给Thinkpad X201i安装Windows XP，Windows下安装Ubuntu很方便，反过来还是要费一番心思的。
 ---
 
 
