@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/css/toc.css" />
 <script type="text/javascript">
   $(function() {
+    // initialize toc content with jquery.toc.js
     $('#mainpost').toc({
       showAlways:true,
       renderIn:'#renderIn',
@@ -9,5 +10,67 @@
       showText:'Expand',
       showCollapsed:false
     });
+    // copy the content to sidebar
+    const htmlpref = '<div id="sidebar-toctitle"><h4>Table of Concepts</h4></div><div id="sidebar-toccontent">'
+    $('#sidebar_catelog').html(htmlpref+$('#toccontent').html()+'</div>');
   });
+</script>
+
+<!-- 当前运行不正常 -->
+<!--
+<script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+<script>
+  初始化scrollnav 根据#mainpost
+  const ct = document.querySelector('#mainpost');
+  scrollnav.init(
+    ct,
+    {
+      debug: false,
+      easingStyle: 'linear',
+      sections: ($('#mainpost > h2').length>0) ? 'h2' : 'h3',
+      subSections: ($('#mainpost > h2').length>0) ? 'h3' : 'h4',
+    }
+  );
+</script>
+-->
+
+
+<script>
+  // 定义根据窗口宽度显示不同导航栏
+  var scrollnavhide = true;
+  function resize() {
+    if($(window).width() > 950){
+      $('#renderIn').hide();
+      $('#sidebar_catelog').show();
+      // 右导航栏是否隐藏判断
+      if($(window).width() > 1900){
+        $('#sidebar_catelog').animate({right:"0px"},0);
+        scrollnavhide = false;
+      }else{
+	    	$('#sidebar_catelog').animate({right:"-260px"},0);
+        scrollnavhide = true;
+      }
+    } else {
+      $('#renderIn').show();
+      $('#sidebar_catelog').hide();
+    }
+  }
+
+  // 窗口调整时更改显示内容
+  resize();
+  $(window).resize(function(){
+    resize();
+  })
+
+  // 鼠标移动到导航栏时弹出 (有时会鬼畜)
+  $('#sidebar_catelog').mouseenter(function(){
+    if (scrollnavhide){
+      $('#sidebar_catelog').animate({right:"0px"},200);
+    }
+  })
+  $('#sidebar_catelog').mouseleave(function(){
+    if (scrollnavhide){
+		  $('#sidebar_catelog').animate({right:"-260px"},200);
+    }
+  })
 </script>

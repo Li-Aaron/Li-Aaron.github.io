@@ -14,7 +14,7 @@
  */
 (function($) {
     var toggleHTML = '<div id="toctitle"><h2>%1</h2> <span class="toctoggle">[<a id="toctogglelink" class="internal" href="#">%2</a>]</span></div>';
-    var tocContainerHTML = '<div id="toc-container"><table class="toc" id="toc"><tbody><tr><td>%1<ul>%2</ul></td></tr></tbody></table></div>';
+    var tocContainerHTML = '<div id="toc-container"><table class="toc" id="toc"><tbody><tr><td>%1<div id="toccontent"><ul>%2</ul></div></td></tr></tbody></table></div>';
 
     // function createLevelHTML(anchorId, tocLevel, tocSection, tocNumber, tocText, tocInner) {
     //     var link = '<a href="#%1"><span class="tocnumber">%2</span> <span class="toctext">%3</span></a>%4'

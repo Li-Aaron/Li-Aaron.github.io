@@ -1,0 +1,23 @@
+#sidebar_catelog {
+  background-color: #F9F9F9;
+  // border: 1px solid #a2a9b1;
+  position: fixed;
+
+  @media screen and (min-width: 800px) {
+    float: right;
+    padding: 15px 10px;
+    width: 100px;
+    // top: 60px;
+  }
+
+  @media screen and (min-width: 800px) {
+    width: 300px;
+  }
+
+  top: 0;
+	bottom: 0;
+	right: -260px;
+	width: 300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
