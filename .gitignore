@@ -43,4 +43,8 @@ bk
 
 # Original Source File Types
 .psd
-.vsdx
+*.vsd*
+*.ppt*
+*.xls*
+*.doc*
+~$*
