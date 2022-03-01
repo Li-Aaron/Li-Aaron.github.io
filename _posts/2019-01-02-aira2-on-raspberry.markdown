@@ -43,6 +43,10 @@ touch ~/.config/aria2/aria2.session
 vim ~/.config/aria2/aria2.config
 ```
 
+>**2022.03.01更新**：  
+>配置文件推荐使用：[https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)  
+>或直接使用docker部署Aria2: [https://github.com/P3TERX/Aria2-Pro-Docker](https://github.com/P3TERX/Aria2-Pro-Docker)  
+
 配置文件中设置如下（注意不要中文注释）：
 
 ```bash
