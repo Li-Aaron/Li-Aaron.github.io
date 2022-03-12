@@ -170,7 +170,7 @@ add device 10: /dev/input/event6
 再通过如下命令  
 
 ```bash
-adb shell # 没有推出shell可以不输入
+adb shell # 没有退出shell可以不输入
 dumpsys input
 ```
 
