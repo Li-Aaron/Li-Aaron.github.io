@@ -244,7 +244,7 @@ vi leanote.desktop
 ```ini
 [Desktop Entry]
 Encoding=UTF-8
-Version=1.0
+Version=1.5
 Comment=cloud based note-taking application
 Type=Application
 Terminal=false
@@ -253,12 +253,17 @@ Exec=/home/xxx/leanote/Leanote
 Icon=/home/xxx/leanote/leanote.png
 StartupNotify=true
 Categories=TextEditor;
+SingleMainWindow=true
+X-GNOME-UsesNotifications=true
+X-GNOME-SingleWindow=true
+StartupWMClass=leanote-desktop
 ```
 
-效果如下：
-![ubuntu2](/assets/images/2021-08-12-leanote-replace-evernote/ubuntu2.png)
+效果如下(2022/4/1更新)：
+![ubuntu2](/assets/images/2022-04-01-Leanote-Linux-app-startup/2.png)
 
-> **未解决问题**：侧边栏图标仍无法显示
+> **未解决问题**：侧边栏图标仍无法显示  
+> 2022/4/1 更新：问题解决，参考上方ini文件  
 
 ### 4.3 iOS
 iPhone界面：
