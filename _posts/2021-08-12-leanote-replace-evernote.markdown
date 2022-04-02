@@ -233,7 +233,7 @@ Android移动端： [https://ali-cdn.leanote.top/apk/Leanote-v1.0-beta.7.apk](ht
 
 ### 4.2 Linux
 这里使用了Ubuntu18.04desktop，在Ubuntu下界面和Windows差不多。
-![ubuntu1](/assets/images/2021-08-12-leanote-replace-evernote/ubuntu1.png)
+![ubuntu1](/assets/images/2022-04-01-Leanote-Linux-app-startup/2.png)
 
 在启动器里面增加图标
 ```bash
@@ -260,7 +260,7 @@ StartupWMClass=leanote-desktop
 ```
 
 效果如下(2022/4/1更新)：
-![ubuntu2](/assets/images/2022-04-01-Leanote-Linux-app-startup/2.png)
+![ubuntu2](/assets/images/2022-04-01-Leanote-Linux-app-startup/1.png)
 
 > **未解决问题**：侧边栏图标仍无法显示  
 > 2022/4/1 更新：问题解决，参考上方ini文件  
