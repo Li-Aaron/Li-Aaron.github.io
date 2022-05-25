@@ -45,11 +45,14 @@ social:
     mail: ac2sherry@gmail.com
     zhihu: c_1268869828800262144
 
-# Google Analytics
-ga:
-    id: UA-131530384-1
-    host: li-Aaron.github.io
-
 # Google Analytics v4
 ga4:
     id: G-NTXPN919ZG
+
+# Google Site Verification in Web Header
+googleauth:
+    id: Ki7qkTQ5h9WT5k5IkerZOg7-huEXVUyvba_SOloPmMQ
+
+# Baidu Site Verification in Web Header
+baiduauth:
+    id: 5NnoRvsOsf

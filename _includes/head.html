@@ -3,8 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta name="baidu-site-verification" content="5NnoRvsOsf" />
-  <meta name="google-site-verification" content="Ki7qkTQ5h9WT5k5IkerZOg7-huEXVUyvba_SOloPmMQ" />
+  {% if site.googleauth.id %}<meta name="google-site-verification" content="{{site.googleauth.id}}" />{% endif %}
+  {% if site.baiduauth.id %}<meta name="baidu-site-verification" content="{{site.baiduauth.id}}" />{% endif %}
   
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
