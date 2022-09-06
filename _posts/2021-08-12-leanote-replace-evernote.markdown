@@ -220,6 +220,13 @@ Android移动端： [https://ali-cdn.leanote.top/apk/Leanote-v1.0-beta.7.apk](ht
 
 ![client1](/assets/images/2021-08-12-leanote-replace-evernote/client1.png)
 
+> 2022.9.6更新：  
+> 经过不懈努力（人菜瘾大），终于找到代理的设置实际是在needle.js中。  
+> 将`resource/app/node_modules/needle/lib/needle.js`中的`options.proxy`改成`'http://proxy.server:port'`即可  
+> ![proxy1](/assets/images/2021-08-12-leanote-replace-evernote/proxy1.png)  
+> 详见[Leanote APP with proxy]({{site.url}}/2022/09/leanote-app-with-proxy/)
+> （Leanote官方已经不维护了，issue都关了，有人都在PR里面骂上了。）  
+
 桌面客户端不能用**代理**，看github一堆issue也没人管。如果是公司内网（需要代理），就需要[Proxifier](https://www.proxifier.com/)软件辅助桌面客户端走代理。
 
 官网下载地址：[https://www.proxifier.com/](https://www.proxifier.com/)
