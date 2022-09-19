@@ -138,7 +138,7 @@ adb push xx.xx /xxx/xx.xx
 ```bash
 adb root
 adb shell
-get event
+getevent
 ```
 
 按一下遥控器的按键，查看输入的结果：
