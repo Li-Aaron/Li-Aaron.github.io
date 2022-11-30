@@ -39,20 +39,26 @@
   // 定义根据窗口宽度显示不同导航栏
   var scrollnavhide = true;
   function resize() {
-    if($(window).width() > 950){
+    if ($('#toccontent').html() == "undefined") {
+      // undefined (no TOC), hide content
       $('#renderIn').hide();
-      $('#sidebar_catelog').show();
-      // 右导航栏是否隐藏判断
-      if($(window).width() > 1900){
-        $('#sidebar_catelog').animate({right:"0px"},0);
-        scrollnavhide = false;
-      }else{
-	    	$('#sidebar_catelog').animate({right:"-260px"},0);
-        scrollnavhide = true;
-      }
-    } else {
-      $('#renderIn').show();
       $('#sidebar_catelog').hide();
+    } else {
+      if($(window).width() > 950){
+        $('#renderIn').hide();
+        $('#sidebar_catelog').show();
+        // 右导航栏是否隐藏判断
+        if($(window).width() > 1900){
+          $('#sidebar_catelog').animate({right:"0px"},0);
+          scrollnavhide = false;
+        }else{
+          $('#sidebar_catelog').animate({right:"-260px"},0);
+          scrollnavhide = true;
+        }
+      } else {
+        $('#renderIn').show();
+        $('#sidebar_catelog').hide();
+      }
     }
   }
 
