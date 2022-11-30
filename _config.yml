@@ -34,6 +34,7 @@ paginate_path: "page/:num/"
 comment:
     disqus: li-aaron
     # duoshuo:
+    giscus: Li-Aaron/Li-Aaron.github.io
 
 # Social
 social:
