@@ -42,9 +42,10 @@ Wechat
 bk
 
 # Original Source File Types
-.psd
+*.psd*
 *.vsd*
 *.ppt*
 *.xls*
 *.doc*
 ~$*
+ori/
