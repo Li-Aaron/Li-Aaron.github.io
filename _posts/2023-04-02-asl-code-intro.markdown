@@ -62,11 +62,12 @@ DefinitionBlock (
 // ObjectName 必须小于等于4个字母，可以下划线开头
 Name (ObjectName, Object)
 ```
-**Object Types:**
-• Integer - An unsigned 64-bit or 32-bit integer. Size取决于`ComplianceRevision`
-• String - A null-terminated ASCII string. 字符串
-• Buffer - An array of **bytes**. 类似数组
-• Package - An array of ASL objects. 类似结构体
+**Object Types:**  
+
+• Integer - An unsigned 64-bit or 32-bit integer. Size取决于`ComplianceRevision`  
+• String - A null-terminated ASCII string. 字符串  
+• Buffer - An array of **bytes**. 类似数组  
+• Package - An array of ASL objects.   
 ```c
 DefinitionBlock ("", DSDT, 2, "", "", 0x0)
 {
@@ -134,9 +135,9 @@ DefinitionBlock ("", "DSDT", 2, "", "", 0x1)
 
 除了上文中提到Object Type以外，ASL语言还支持很多其他的Object Type，如：
 
-• Device - Device or bus object. 硬件对象
-• Object Reference - A reference to an object created by RefOf, Index, or CondRefOf operators. 类似指针
-• Method - Control Method (Executable AML function). 类似函数
+• Device - Device or bus object. 硬件对象  
+• Object Reference - A reference to an object created by RefOf, Index, or CondRefOf operators. 类似指针  
+• Method - Control Method (Executable AML function). 类似函数  
 
 详细参见： [All Data Types](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html#asl-data-types)
 
