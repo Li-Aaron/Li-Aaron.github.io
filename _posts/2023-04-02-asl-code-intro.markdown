@@ -20,12 +20,12 @@ ASL的表达式(Statement)声明对象(Object)
 ```c
 Object := ObjectType FixedList VariableList
 ```
-其中
-`Operator` 是ACPI中规定的操作符，如`DefinitionBlock`，`NameSpace`，`Method`，`Scope`
-`FixedList` 是一组固定长度的变量，根据不同的`Operator`，有不同的长度，也可能为空，写法：(a, b, c)，有时尾部的变量可以省略（Default值生效）
-`VariableList`是一组不定长度的变量，写法：{x, y, z}，对于某些`Operator`，这里的变量(argument)可以是嵌套的对象。
+其中  
+`Operator` 是ACPI中规定的操作符，如`DefinitionBlock`，`NameSpace`，`Method`，`Scope`  
+`FixedList` 是一组固定长度的变量，根据不同的`Operator`，有不同的长度，也可能为空，写法：(a, b, c)，有时尾部的变量可以省略（Default值生效）  
+`VariableList`是一组不定长度的变量，写法：{x, y, z}，对于某些`Operator`，这里的变量(argument)可以是嵌套的对象。  
 
-整体就是有点C语言函数的样子。（虽然长得像但是有很显著的差异）
+整体就是有点C语言函数的样子。（虽然长得像但是有很显著的差异）  
 ```c
 Operator (FixedVariableA, FixedVariableB, FixedVariableC) {
   VariableX,
