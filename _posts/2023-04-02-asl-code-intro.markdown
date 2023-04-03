@@ -20,8 +20,9 @@ ASL的表达式(Statement)声明对象(Object)
 ```c
 Object := ObjectType FixedList VariableList
 ```
+
 其中  
-`Operator` 是ACPI中规定的操作符，如`DefinitionBlock`，`NameSpace`，`Method`，`Scope`  
+`Operator` 是ACPI中规定的操作符，如`DefinitionBlock`，`Name`，`Method`，`Scope`  
 `FixedList` 是一组固定长度的变量，根据不同的`Operator`，有不同的长度，也可能为空，写法：(a, b, c)，有时尾部的变量可以省略（Default值生效）  
 `VariableList`是一组不定长度的变量，写法：{x, y, z}，对于某些`Operator`，这里的变量(argument)可以是嵌套的对象。  
 
@@ -418,5 +419,7 @@ DefinitionBlock ("", "DSDT", 2, "", "", 0x0)
   }
 }
 ```
+
+---
 
 后面还没整理完，下篇文章接着写。
