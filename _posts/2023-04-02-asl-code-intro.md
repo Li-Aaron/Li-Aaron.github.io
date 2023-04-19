@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ASL语言学习（1）
+title: ASL语言学习（1）- 基本语法，作用域
 date: 2023-04-02 14:00:00.000000000 +08:00
 excerpt: 本文介绍ASL语言的基本语法，作用域以及NamePath。
 ---

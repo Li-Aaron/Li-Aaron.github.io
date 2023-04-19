@@ -1,12 +1,13 @@
 ---
 layout: post
-title: ASL语言学习（3）
+title: ASL语言学习（3）- 隐式转换，Method调用
 date: 2023-04-17 19:30:00.000000000 +08:00
 excerpt: 本文介绍ASL语言的部分隐式转换与Method调用。
 ---
 
 续上两篇，这一篇我们介绍ASL语言的部分隐式转换与Method调用  
-[ASL语言学习（1）]({{site.url}}/2023/04/asl-code-intro/)，[ASL语言学习（2）]({{site.url}}/2023/04/asl-code-intro2/)  
+[ASL语言学习（1）- 基本语法，作用域]({{site.url}}/2023/04/asl-code-intro/)，  
+[ASL语言学习（2）- Debug，常用操作符]({{site.url}}/2023/04/asl-code-intro2/)  
 
 Reference:
 
