@@ -328,3 +328,5 @@ find /volume1/backup/leanote_bk/ -type f -mtime +7 -exec rm -f {} \;
 > 一些尚未解决的问题：
 > - 群晖docker使用wkhtmltopdf将PDF导出的问题。
 > - Linux客户端侧边栏图标的问题。
+
+> 2023/12/19 更新：wkhtmltopdf 解决方法：更换docker-compose file中`zxfishhack/leanote`为 `jim3ma/leanote`
