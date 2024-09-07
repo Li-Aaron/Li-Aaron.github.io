@@ -225,6 +225,18 @@ adb reboot
 
 ![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/3.JPG)  
 
+## 2024更新
+
+LineageOS 19之后HW decoding好了，但是Kodi播放4K的视频还是爆卡，可以播1080p的。
+
+LinageOS自带的ntp也不能正常同步，可以通过如下命令更改NTP服务器。
+
+```
+adb root
+adb shell "settings put global ntp_server ntp.ntsc.ac.cn"
+```
+
+修改之后重新开关一下自动同步时间就好了。
 
 ## Reference
 [LineageOS 18.1 Android TV (Android 11)](https://konstakang.com/devices/rpi4/LineageOS18-ATV/)  
