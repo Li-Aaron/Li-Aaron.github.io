@@ -1,10 +1,16 @@
 #  The contact options.
 
+- type: wechat
+  icon: "fab fa-wechat"
+
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+- type: zhihu
+  icon: "fab fa-zhihu"
 
 - type: email
   icon: "fas fa-envelope"

@@ -1,5 +1,33 @@
 <!-- The Side Bar -->
 
+<!-- HoverPic, requires jquery begin -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+  function HoverPic(divId, aId, imgId) {
+    $(function () {
+      $(document).mousemove(function (en) {
+        var xPos = parseInt(en.originalEvent.x - 64) + 'px';
+        var yPos = parseInt(en.originalEvent.y - 138) + 'px';
+        $(divId).css('left', xPos);
+        $(divId).css('top', yPos);
+      });
+      $(imgId).css('width', 128);
+      $(imgId).css('height', 128);
+      $(aId).hover(
+        function () {
+          $(divId).fadeIn(300);
+        },
+        function () {
+          $(divId).fadeOut(300);
+        }
+      );
+    });
+  }
+  //HoverPic('#wechat', '#wechatlink', '#wechatimg');
+  HoverPic('#zhihudiv', '#zhihu', '#zhihuimg');
+</script>
+<!-- HoverPic, requires jquery end -->
+
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
@@ -57,6 +85,19 @@
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
+          {% comment %}
+            {% when 'wechat' -%}
+              {%- capture url -%}
+                https://{{ entry.type }}.com/{{ site[entry.type].username }}
+              {%- endcapture -%}
+          {% endcomment %}
+        {% when 'zhihu' -%}
+          <div id="zhihudiv" style="display:none; position: fixed;">
+            <img id="zhihuimg" src="/assets/img/favicons/zhihu.png">
+          </div>
+          {%- capture url -%}
+            https://www.zhihu.com/column/{{ site[entry.type].username }}
+          {%- endcapture -%}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
@@ -71,6 +112,7 @@
       {% if url %}
         <a
           href="{{ url }}"
+          id="{{ entry.type }}"
           aria-label="{{ entry.type }}"
           {% assign link_types = '' %}
 
