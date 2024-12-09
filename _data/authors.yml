@@ -6,6 +6,9 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-aaronli:
+aaron-li:
   name: Aaron Li
   url: https://github.com/Li-Aaron/
+
+sherry:
+  name: Sherry
