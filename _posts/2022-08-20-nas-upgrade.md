@@ -8,7 +8,7 @@ excerpt: 本文介绍黑裙升级CPU主板，系统信息更换正确CPU名称�
 
 最近下载的好多美剧都是h265编码的，[J1900](https://ark.intel.com/content/www/us/en/ark/products/78867/intel-celeron-processor-j1900-2m-cache-up-to-2-42-ghz.html)的黑裙不支持硬解，卡的要死。
 
-![j1900-codec](/assets/images/2022-08-20-nas-upgrade/j1900-codec.png)
+![j1900-codec](/assets/img/posts/2022-08-20-nas-upgrade/j1900-codec.png)
 
 为了更舒服的在家里看视频，我决定升级一下这台黑裙。
 
@@ -57,23 +57,23 @@ J4125除了功耗以外，均弱于G5400，（毕竟TDP在这摆着）。
 ## 2.1 更换CPU 主板
 由于买的都是二手板U，成色还算可以。
 
-![mb+cpu.JPG](/assets/images/2022-08-20-nas-upgrade/mb+cpu.JPG)
+![mb+cpu.JPG](/assets/img/posts/2022-08-20-nas-upgrade/mb+cpu.JPG)
 
 店家提供了跳线配置的说明（其实板子上印的蛮详细）：
 
-![douxi1.JPG](/assets/images/2022-08-20-nas-upgrade/douxi1.JPG)
+![douxi1.JPG](/assets/img/posts/2022-08-20-nas-upgrade/douxi1.JPG)
 
-![douxi2.JPG](/assets/images/2022-08-20-nas-upgrade/douxi2.JPG)
+![douxi2.JPG](/assets/img/posts/2022-08-20-nas-upgrade/douxi2.JPG)
 
-![douxi3.JPG](/assets/images/2022-08-20-nas-upgrade/douxi3.JPG)
+![douxi3.JPG](/assets/img/posts/2022-08-20-nas-upgrade/douxi3.JPG)
 
 加上超薄风扇，内存和SSD，上机测试（这个M2接口不支持m2 sata，只支持m2 nvme)。
 
-![testrun.JPG](/assets/images/2022-08-20-nas-upgrade/testrun.JPG)
+![testrun.JPG](/assets/img/posts/2022-08-20-nas-upgrade/testrun.JPG)
 
 查看BIOS。
 
-![bios.JPG](/assets/images/2022-08-20-nas-upgrade/bios.JPG)
+![bios.JPG](/assets/img/posts/2022-08-20-nas-upgrade/bios.JPG)
 
 将板子替换上去（这个风扇高度已经比较极限了），插好所有sata盘，直接正常开机无需额外操作（DSM 6.2.1版本适用，其他版本不一定）。
 
@@ -81,11 +81,11 @@ J4125除了功耗以外，均弱于G5400，（毕竟TDP在这摆着）。
 
 播放如下视频：
 
-![finch.png](/assets/images/2022-08-20-nas-upgrade/finch.png)
+![finch.png](/assets/img/posts/2022-08-20-nas-upgrade/finch.png)
 
 播放效果以及CPU负载：
 
-![4k.png](/assets/images/2022-08-20-nas-upgrade/4k.png)
+![4k.png](/assets/img/posts/2022-08-20-nas-upgrade/4k.png)
 
 4k h265 解码毫无压力。
 
@@ -93,15 +93,15 @@ J4125除了功耗以外，均弱于G5400，（毕竟TDP在这摆着）。
 
 黑裙的控制面板中，CPU永远显示J3455，这让人有点强迫症。
 
-![cpuinfoincorrect.png](/assets/images/2022-08-20-nas-upgrade/cpuinfoincorrect.png)
+![cpuinfoincorrect.png](/assets/img/posts/2022-08-20-nas-upgrade/cpuinfoincorrect.png)
 
 我们可以使用[ch_cpuinfo](https://github.com/FOXBI/ch_cpuinfo)，非常简单，链接：[https://github.com/FOXBI/ch_cpuinfo](https://github.com/FOXBI/ch_cpuinfo)。
 
-![ch_cpuinfo.png](/assets/images/2022-08-20-nas-upgrade/ch_cpuinfo.png)
+![ch_cpuinfo.png](/assets/img/posts/2022-08-20-nas-upgrade/ch_cpuinfo.png)
 
 注销再登陆，CPU被改成了正确的型号。
 
-![cpuinfocorrect.png](/assets/images/2022-08-20-nas-upgrade/cpuinfocorrect.png)
+![cpuinfocorrect.png](/assets/img/posts/2022-08-20-nas-upgrade/cpuinfocorrect.png)
 
 # 3 Video Station 开启 TrueHD / DTS / AC3 解码
 
@@ -113,7 +113,7 @@ J4125除了功耗以外，均弱于G5400，（毕竟TDP在这摆着）。
 
 在套件中心中手动安装：
 
-![install-ffmpeg.png](/assets/images/2022-08-20-nas-upgrade/install-ffmpeg.png)
+![install-ffmpeg.png](/assets/img/posts/2022-08-20-nas-upgrade/install-ffmpeg.png)
 
 替换video station中的ffmpeg，并解除TrueHD/DTS/AC3的限制：
 
@@ -148,6 +148,6 @@ chmod u+s /var/packages/VideoStation/target/bin/ffmpeg
 
 躺在床上看美剧真舒服。
 
-![bed.png](/assets/images/2022-08-20-nas-upgrade/bed.png)
+![bed.png](/assets/img/posts/2022-08-20-nas-upgrade/bed.png)
 
 

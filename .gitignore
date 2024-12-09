@@ -1,12 +1,26 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
 
-# Created by https://www.gitignore.io/api/jekyll,osx
-
-### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-cache/
+# Jekyll cache
+.jekyll-cache
 .jekyll-metadata
+_site
 
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
 
 ### OSX ###
 .DS_Store
@@ -20,26 +34,6 @@ Icon
 # Thumbnails
 ._*
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-build.sh
-
-# Some Folders
-Zhihu
-Wechat
-bk
 
 # Original Source File Types
 *.psd*

@@ -2,6 +2,7 @@
 layout: post
 title: windows下 gvim 配置成 Source Insight
 date: 2018-04-30 17:51:00.000000000 +08:00
+author: aaron-li
 ---
 移动自cnblogs: [windows下 gvim8.0 编译器配置](https://www.cnblogs.com/ac2sherry/p/8973649.html)
 
@@ -12,10 +13,10 @@ date: 2018-04-30 17:51:00.000000000 +08:00
 [VIM学习笔记 折叠 (Fold)](https://zhuanlan.zhihu.com/p/27473875)  
 
 效果图（新：Taglist+NERD_Tree+SrcExpl），图为自动补全状态：  
-![](/assets/images/2018-04-30-windows-gvim/1146999-20180505011713950-2038894543.png)
+![](/assets/img/posts/2018-04-30-windows-gvim/1146999-20180505011713950-2038894543.png)
 
 效果图（旧：WinManager+SrcExpl）：  
-![](/assets/images/2018-04-30-windows-gvim/1146999-20180430173055152-253098202.png)
+![](/assets/img/posts/2018-04-30-windows-gvim/1146999-20180430173055152-253098202.png)
 
 
 
@@ -26,22 +27,22 @@ date: 2018-04-30 17:51:00.000000000 +08:00
 下载gvim8.0安装就可以了
 
 刚装完是这个样子的：  
-![](/assets/images/2018-04-30-windows-gvim/1146999-20180430173011463-1517323194.png)
+![](/assets/img/posts/2018-04-30-windows-gvim/1146999-20180430173011463-1517323194.png)
 
 ## 2. 插件安装
 
 选用的插件如下表 （尝试后发现WinManager和SrcExpl冲突，改用Trinity）
 
-| 插件名（点击下载） | 作用 | 安装方法（vimrc在后面统一配置）|
-| ---------------- | ---- | -------------------------- |
-| [taglist](http://www.vim.org/scripts/script.php?script_id=273) | 基于ctags的taglist | 解压到.\vim80目录下面 |
-| [WinManager](http://www.vim.org/scripts/script.php?script_id=95) | 将FileExplore和Taglist整合 | 解压到.\vim80目录下面 |
-| [Ctags](http://ctags.sourceforge.net) | ctags，用于生成tag文件（符号链接）| 将ctags.exe放到.\vim80路径下，并将vim80添加到环境变量/ctags.exe放到system32路径下 |
-| [Snipmate](http://www.vim.org/scripts/script.php?script_id=2540) | 提供常用代码快速输入（Tab补齐）| 解压到.\vimfiles目录下面 |
-| [Supertab](http://www.vim.org/scripts/script.php?script_id=1643) | 用Tab键自动补齐 | Open the file in vim ($ vim supertab.vmb) and Source the file (:so %) |
-| [SrcExpl](http://www.vim.org/scripts/script.php?script_id=2179) | 实现source insight的预览框的功能 | 解压到.\vimfiles目录下面 |
-| [Cscope](http://sourceforge.net/projects/mslk/files/) | ctags的强化版，不仅可以生成源tag还能生成调用tag | 将压缩包解压并将目录加入环境变量path中 |
-| [Trinity](http://www.vim.org/scripts/script.php?script_id=2347) | NERD_Tree+taglist+SrcExpl的组合版 | 解压到.\vimfiles目录下面 |
+| 插件名（点击下载）                                               | 作用                                            | 安装方法（vimrc在后面统一配置）                                                   |
+| ---------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------- |
+| [taglist](http://www.vim.org/scripts/script.php?script_id=273)   | 基于ctags的taglist                              | 解压到.\vim80目录下面                                                             |
+| [WinManager](http://www.vim.org/scripts/script.php?script_id=95) | 将FileExplore和Taglist整合                      | 解压到.\vim80目录下面                                                             |
+| [Ctags](http://ctags.sourceforge.net)                            | ctags，用于生成tag文件（符号链接）              | 将ctags.exe放到.\vim80路径下，并将vim80添加到环境变量/ctags.exe放到system32路径下 |
+| [Snipmate](http://www.vim.org/scripts/script.php?script_id=2540) | 提供常用代码快速输入（Tab补齐）                 | 解压到.\vimfiles目录下面                                                          |
+| [Supertab](http://www.vim.org/scripts/script.php?script_id=1643) | 用Tab键自动补齐                                 | Open the file in vim ($ vim supertab.vmb) and Source the file (:so %)             |
+| [SrcExpl](http://www.vim.org/scripts/script.php?script_id=2179)  | 实现source insight的预览框的功能                | 解压到.\vimfiles目录下面                                                          |
+| [Cscope](http://sourceforge.net/projects/mslk/files/)            | ctags的强化版，不仅可以生成源tag还能生成调用tag | 将压缩包解压并将目录加入环境变量path中                                            |
+| [Trinity](http://www.vim.org/scripts/script.php?script_id=2347)  | NERD_Tree+taglist+SrcExpl的组合版               | 解压到.\vimfiles目录下面                                                          |
 
 ## 3. 主题安装
 

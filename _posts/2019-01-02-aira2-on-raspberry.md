@@ -225,7 +225,7 @@ vim ./tomcat7/bin/start.sh
 ```
 在浏览器中访问`http://your-ip/`即可打开Apache Tomcat的默认webpage了。（如下图）
 
-![](/assets/images/2019-01-02-aira2-on-raspberry/tomcat.PNG)
+![](/assets/img/posts/2019-01-02-aira2-on-raspberry/tomcat.PNG)
 
 
 #### 配置Tomcat自启动
@@ -269,18 +269,18 @@ DMZ主机是目前绝大多数路由器都会带的功能，其功能就是实�
 
 移动光猫配置页面（需要超级帐号）：
 
-![](/assets/images/2019-01-02-aira2-on-raspberry/router_cmcc.PNG)
+![](/assets/img/posts/2019-01-02-aira2-on-raspberry/router_cmcc.PNG)
 
 TP-Link配置页面：
 
-![](/assets/images/2019-01-02-aira2-on-raspberry/router_tp.PNG)
+![](/assets/img/posts/2019-01-02-aira2-on-raspberry/router_tp.PNG)
 
 ### 5.2 端口映射
 
 如果不想要把所有的端口都暴露在公网上（这样做风险较大），可以只将其中的几个端口映射到公网上。  
 这里使用移动光猫的设置举例：
 
-![](/assets/images/2019-01-02-aira2-on-raspberry/router_cmcc2.PNG)
+![](/assets/img/posts/2019-01-02-aira2-on-raspberry/router_cmcc2.PNG)
 
 这样配置好访问路由器的公网IP地址以及绑定的端口号就可以直接访问到Raspberry Pi的相应端口。
 
@@ -508,7 +508,7 @@ service smbd restart
 
 即可进行连接测试（在运行窗口中输入`\\ip`即可访问）
 
-![](/assets/images/2019-01-02-aira2-on-raspberry/smb_service.PNG)
+![](/assets/img/posts/2019-01-02-aira2-on-raspberry/smb_service.PNG)
 
 ## Reference
 [树莓派3B+ 远程下载服务器（Aria2）](https://blog.csdn.net/kxwinxp/article/details/80288006) 作者：宁静致远kioye  

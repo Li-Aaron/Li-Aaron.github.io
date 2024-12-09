@@ -16,7 +16,7 @@ excerpt: 老电脑系列第三篇，给Thinkpad X201i更换屏幕。
 ## 0. 准备工作
 
 从某宝搞到一个AFFS显示屏，这个时候这种屏幕已经不产了，一般都是回收的屏幕了。  
-![newscreen](/assets/images/2021-01-31-thinkpadx201i-refresh-3/newscreen.jpg)
+![newscreen](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/newscreen.jpg)
 这个品相看着还可以。  
 
 
@@ -27,53 +27,53 @@ excerpt: 老电脑系列第三篇，给Thinkpad X201i更换屏幕。
 由于之前的文章写过拆卸，这次简单写一下。  
 
 首先拆掉键盘。红圈中标记的螺丝是屏线螺丝，提前拆下。  
-![removekeyboard](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removekeyboard.jpg)
+![removekeyboard](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/removekeyboard.jpg)
 
 习惯的顺手拆掉了手托，其实这次没有必要拆，不过拆掉手托方便拆键盘外框。  
-![removehandplate](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removehandplate.jpg)
+![removehandplate](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/removehandplate.jpg)
 
 拆键盘外框注意下方的红圈对应背面的螺丝需要拧下来。  
 屏幕的螺丝在上面三个红圈的垫片下面，需要撬下来。  
 
 垫片下的螺丝。  
-![screenscrew](/assets/images/2021-01-31-thinkpadx201i-refresh-3/screenscrew.jpg)
+![screenscrew](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/screenscrew.jpg)
 
 开始拆屏幕，屏幕外框有很多卡扣，需要用翘片把四外圈撬开。  
 翘的时候除了下面都可以放心翘，屏幕和外框中间的距离很宽。
-![removescreenshell](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removescreenshell.jpg)
+![removescreenshell](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/removescreenshell.jpg)
 
 注意红色标出的WIFI天线，这个在拆卸屏幕的时候会起出来（不然不能完全拿下屏幕）。  
 装回去的时候记得复原，不然盖不上屏幕外壳。  
-![removescreenshell-warn](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removescreenshell-warn.jpg)
+![removescreenshell-warn](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/removescreenshell-warn.jpg)
 
 拧下红圈中对应六个螺丝，以及LED灯板的螺丝（被挡住了）。  
-![removescreenshell-screenscrew](/assets/images/2021-01-31-thinkpadx201i-refresh-3/removescreenshell-screenscrew.jpg)
+![removescreenshell-screenscrew](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/removescreenshell-screenscrew.jpg)
 
 拆下旧屏幕，照虚了=_=。  
-![oldscreen](/assets/images/2021-01-31-thinkpadx201i-refresh-3/oldscreen.jpg)
+![oldscreen](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/oldscreen.jpg)
 
 ## 2. 换屏及测试
 网上有的说法是新旧屏线一样可以不拆键盘，只拆屏幕就可以更换。  
 不过这个新旧屏幕的屏线是不一样的，所以需要一起换掉。  
-![comparescreenline](/assets/images/2021-01-31-thinkpadx201i-refresh-3/comparescreenline.jpg)
+![comparescreenline](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/comparescreenline.jpg)
 新的屏线还带了一个蓝牙模块，原来的机器是没有的，对应的位置是个泡沫块...
 
 新的屏幕有个接线，接在LED板对应的地方。  
-![ledcircuit](/assets/images/2021-01-31-thinkpadx201i-refresh-3/ledcircuit.jpg)
+![ledcircuit](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/ledcircuit.jpg)
 
 先不要装回去，装两个螺丝确保稳固先进行开机测试。  
-![testfirst](/assets/images/2021-01-31-thinkpadx201i-refresh-3/testfirst.jpg)
+![testfirst](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/testfirst.jpg)
 
 屏幕一切显示正常，没有坏点暗点，原样装回去，即可正常使用了。
-![screentest1](/assets/images/2021-01-31-thinkpadx201i-refresh-3/screentest1.jpg)
+![screentest1](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/screentest1.jpg)
 
 可视角度增大了。  
-![screentest2](/assets/images/2021-01-31-thinkpadx201i-refresh-3/screentest2.jpg)
+![screentest2](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/screentest2.jpg)
 
 ## 3. 后记
 
 比较一下前后的游戏画面。  
-![diabloafter](/assets/images/2021-01-31-thinkpadx201i-refresh-3/diabloafter.jpg)
+![diabloafter](/assets/img/posts/2021-01-31-thinkpadx201i-refresh-3/diabloafter.jpg)
 
 TN的屏幕在稍微倾斜的角度很多细节就看不出来了，AFFS的可以。  
 但是AFFS的亮度比原来低一些，不过还够用。  

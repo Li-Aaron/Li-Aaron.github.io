@@ -17,13 +17,13 @@ excerpt: 老电脑系列番外篇，给装好Ubuntu和Windows xp的Thinkpad X201
 
 用[Rufus](https://rufus.ie/zh_CN.html)生成Ubuntu/Kali的安装盘。（UltraISO生成的安装盘在Legacy BIOS下无法正常运行）  
 
-![Rufus-image-gen](/assets/images/2021-01-11-install-xp-under-ubuntu/rufus-ubuntu.png)  
+![Rufus-image-gen](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/rufus-ubuntu.png)  
 
 成功启动Live Ubuntu。  
-![Live Ubuntu](/assets/images/2021-01-11-install-xp-under-ubuntu/ubuntu-live.png)  
+![Live Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/ubuntu-live.png)  
 
 注意：Rufus做Kali的安装盘需要用DD写入。  
-![Rufus-image-gen-Kali-DD](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/rufus-kali.png)  
+![Rufus-image-gen-Kali-DD](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/rufus-kali.png)  
 
 
 ## 1. 磁盘分区
@@ -32,7 +32,7 @@ excerpt: 老电脑系列番外篇，给装好Ubuntu和Windows xp的Thinkpad X201
 
 在ubuntu的Live CD下，选择`Try Ubuntu`。  
 
-![Try Ubuntu](/assets/images/2021-01-11-install-xp-under-ubuntu/try-ubuntu.png)  
+![Try Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/try-ubuntu.png)  
 
 Ubuntu 18.04.05 Live CD自带gparted，`ALT+T`打开terminal后，键入  
 ```Bash
@@ -41,15 +41,15 @@ sudo gparted
 
 进入Gparted修改分区，移动Ubuntu分区到右侧，需要等待10+分钟（取决于文件的多少，使用的磁盘是HDD还是SSD）。  
 
-![Gparted-size](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/gparted1.png)
+![Gparted-size](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/gparted1.png)
 
 并新建一个ext4分区（也可以在Kali的安装过程中新建）。  
 
-![Gparted-size2](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/gparted2.png)
+![Gparted-size2](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/gparted2.png)
 
 点击确定，等待分区结束。  
 
-![Gparted-success](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/gparted3.png)
+![Gparted-success](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/gparted3.png)
 
 
 ## 2. 安装Kali到第三个分区
@@ -58,48 +58,48 @@ sudo gparted
 
 将Kali安装盘插入USB，选择Start installer，（注意：Live不能直接安装）  
 
-![kali-install-1](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali1.png)
+![kali-install-1](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali1.png)
 
 这次直接装一个中文系统，Kali对中文的支持还不错。  
 
-![kali-install-2](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali2.png)
+![kali-install-2](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali2.png)
 
 手动选择硬盘分区。  
 
-![kali-install-3](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali3.png)
+![kali-install-3](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali3.png)
 
 选择刚刚gparted中建立的第三个分区。  
 
-![kali-install-4](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali4.png)
+![kali-install-4](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali4.png)
 
 设置文件系统为Ext4，挂载点为`/`。  
 注：可启动标志为关，可启动标志要留给windows分区。  
 
-![kali-install-5](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali5.png)
+![kali-install-5](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali5.png)
 
 结束分区设定。  
 
-![kali-install-6](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali6.png)
+![kali-install-6](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali6.png)
 
 由于我的内存够用，这里不额外设置swap分区。  
 
-![kali-install-7](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali7.png)
+![kali-install-7](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali7.png)
 
 确定将改动写入磁盘。  
 
-![kali-install-8](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali8.png)
+![kali-install-8](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali8.png)
 
 等待系统安装完成。  
 
-![kali-install-9](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali9.png)
+![kali-install-9](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali9.png)
 
 安装Kali的Grub启动器。  
 
-![kali-install-10](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali10.png)
+![kali-install-10](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali10.png)
 
 安装完成后，Kali的Grub包含三个系统。  
 
-![kali-grub](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub.png)
+![kali-grub](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub.png)
 
 
 
@@ -114,17 +114,17 @@ sudo vim /etc/default/grub
 ```
 将`GRUB_DEFAULT`修改为3（对应上面Kali-Grub中第四项Ubuntu）。  
 
-![kali-grub-edit](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit.png)
+![kali-grub-edit](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit.png)
 
 ```Bash
 sudo update-grub2
 ```
 
-![kali-grub-edit2](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit2.png)
+![kali-grub-edit2](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit2.png)
 
 修改后默认启动项改变。  
 
-![kali-grub-edit3](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit3.png)
+![kali-grub-edit3](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit3.png)
 
 
 
@@ -144,38 +144,38 @@ sudo apt-get install -y boot-repair && boot-repair
 
 在[Boot-Repair](https://help.ubuntu.com/community/Boot-Repair)工具的图形界面中选择`Recommand repair`。  
 
-![boot-repair界面](/assets/images/2021-01-11-install-xp-under-ubuntu/boot-repair.png)  
+![boot-repair界面](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/boot-repair.png)  
 
 等待程序完成后，重启，自动进入新的Ubuntu Grub引导界面。  
 
-![Ubuntu新的引导界面](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/ubuntu-grub.png)
+![Ubuntu新的引导界面](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/ubuntu-grub.png)
 
 ## 4. 后记
 
 可以开始体验Kali OS拉。  
 
-![kali-os](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-os.png)
+![kali-os](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-os.png)
 
-![kali-os2](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/kali-os2.png)
+![kali-os2](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-os2.png)
 
 ## 5. 失败的尝试
 ### 5.1 Rufus生成Kali安装盘，使用ISO写入。
 
 使用Rufus生成Kali的U盘安装盘选择了ISO写入，安装时出现CDROM无法挂载的情况。
 
-![cdrom-detect_retry_0](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/cdrom-detect_retry_0.png)
+![cdrom-detect_retry_0](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/cdrom-detect_retry_0.png)
 
 进入Shell发现`/dev/sdb1`被挂载到`/media`上，移除这个挂载。
 
-![debian-installer_shell-plugin_0.png](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/debian-installer_shell-plugin_0.png)
+![debian-installer_shell-plugin_0.png](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/debian-installer_shell-plugin_0.png)
 
 CDROM可以挂载了。
 
-![cdrom-detect_success_0](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/cdrom-detect_success_0.png)
+![cdrom-detect_success_0](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/cdrom-detect_success_0.png)
 
 但是无法从CDROM中读取数据。
 
-![retriever_cdrom_error_0.png](/assets/images/2022-01-13-install-kali-on-mbr-with-two-os/retriever_cdrom_error_0.png)
+![retriever_cdrom_error_0.png](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/retriever_cdrom_error_0.png)
 
 无法解决。
 

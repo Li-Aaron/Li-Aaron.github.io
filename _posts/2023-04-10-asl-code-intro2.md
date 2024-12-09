@@ -426,7 +426,7 @@ CreateWordField (SourceBuffer, ByteIndex, FieldName)
       Return (BUF1)
     }
 ```
-![CreateWordField](/assets/images/2023-04-10-asl-code-intro2/CreateWordField.png)
+![CreateWordField](/assets/img/posts/2023-04-10-asl-code-intro2/CreateWordField.png)
 
 执行结果：
 ```bash

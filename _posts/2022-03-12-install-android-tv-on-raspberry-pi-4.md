@@ -10,7 +10,7 @@ excerpt: 本文介绍在树莓派上安装Android TV的方法，一些基本的A
 
 前一阵子把树莓派 Raspberry Pi 3B+ 换成了 4B，这下可以在上面装Android TV了，赶快搞起来让老婆在每个屋子都有电视看。  
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/1.JPG)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/1.JPG)  
 
 
 ## 1. 安装Android TV
@@ -24,20 +24,20 @@ Image可通过其[教程](https://konstakang.com/devices/rpi4/LineageOS18-ATV/)�
 
 用[Rufus](https://rufus.ie/zh_CN.html)烧录到SD卡。  
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976296850_2.png)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976296850_2.png)  
 
 
 烧录后SD卡中全部分区为7G多。  
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976315095_3.png)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976315095_3.png)  
 
 剩余的SD卡空间可通过DiskGenius，或通过其教程提供的Tool扩展。
 
 如图所示为DiskGenius扩展分区的方式，在userdata分区上右键选择调整分区容量。
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976340563_4.png)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976340563_4.png)  
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976362454_5.png)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/1646976362454_5.png)  
 
 将SD卡装回树莓派即可启动Android TV 11。
 
@@ -60,19 +60,19 @@ F12 = 音量+
 
 ### 语言设置
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/lang.gif)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/lang.gif)  
 
 ### 开发者模式
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/dev.gif)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/dev.gif)  
 
 ### 打开LAN ADB与SSH
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/rpi.gif)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/rpi.gif)  
 
 ### 隐私设置（安装第三方软件）
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/privacy.gif)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/privacy.gif)  
 
 ### SSH登录的方法（取自[教程](https://konstakang.com/devices/rpi4/LineageOS18-ATV/)）：
 
@@ -221,9 +221,9 @@ adb reboot
 
 老婆大人觉得不错。
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/2.JPG)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/2.JPG)  
 
-![](/assets/images/2022-03-12-install-android-tv-on-raspberry-pi-4/3.JPG)  
+![](/assets/img/posts/2022-03-12-install-android-tv-on-raspberry-pi-4/3.JPG)  
 
 ## 2024更新
 

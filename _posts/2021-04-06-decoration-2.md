@@ -7,21 +7,21 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 
 ## 写在最前面
 本文的装修流程是基于**找全包/半包装修公司**的情况，清包的流程会比较复杂，本人没有经历过所以无法参考。文中[**地暖安装的注意事项**](#地暖安装的注意事项)，[**柜子的选择与时间安排**](#柜子的选择与时间安排)，[**大理石的坑**](#大理石的坑)，[**燃气热水器的选择**](#燃气热水器的选择)，[**智能开关的选择**](#智能开关的选择)，供装修的朋友参考。以下为此次装修的时间线：  
-![装修时间线](/assets/images/2020-09-08-decoration-1/ShiJianXian.jpg)
+![装修时间线](/assets/img/posts/2020-09-08-decoration-1/ShiJianXian.jpg)
 本篇所描述的时间段涵盖：  
-![装修时间线2](/assets/images/2021-04-06-decoration-2/ShiJianXian_2.jpg)
+![装修时间线2](/assets/img/posts/2021-04-06-decoration-2/ShiJianXian_2.jpg)
 
 ## Day 0 前言
 [去年开始写了一篇二手房装修笔记]({{site.url}}/2020/09/decoration-1/)，后续这个坑留了很久。  
 鉴于再不填就忘干净了，趁着假期把剩下的部分补一补。  
 
-![厨房](/assets/images/2021-04-06-decoration-2/Kitchen.jpg)
+![厨房](/assets/img/posts/2021-04-06-decoration-2/Kitchen.jpg)
 
 ## Day 70 地暖安装与水泥回填
 地暖安装前会做整个地面的防水（因为水泥回填）。  
 地暖看上去就是个大电热毯。从安装到水泥回填周期大概四天，回填后的地面会找平，之后不能再在地面打孔（比如安装实木地板龙骨）。  
 
-![地暖](/assets/images/2021-04-06-decoration-2/DiNuan.jpg)
+![地暖](/assets/img/posts/2021-04-06-decoration-2/DiNuan.jpg)
 <p id="地暖安装的注意事项"></p>
 
 >**地暖安装的注意事项**
@@ -47,7 +47,7 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 ## Day 78 安装窗户
 原有的塑钢窗太老旧了，换成了铝合金窗。  
 考虑到窗台的厚度，没有用断桥铝，只用了双层的凤铝。  
-![窗户](/assets/images/2021-04-06-decoration-2/Window.jpg)
+![窗户](/assets/img/posts/2021-04-06-decoration-2/Window.jpg)
 >隔音效果一般，强烈建议能装断桥铝就装断桥铝，最好三层。  
 >其实这个小区还是很安静的，只是白天小孩子在楼下活动的时候，Work From Home会不爽。  
 
@@ -56,26 +56,26 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 另外室内墙面容易返潮的地方（比如北侧的屋子、安装榻榻米的墙面）也做个防水为好。
 >住宅装饰装修工程施工规范2002版》，一般情况下淋浴区至少1800mm高，其他墙面500mm高。
 
-![防水](/assets/images/2021-04-06-decoration-2/GanQuFangShui.jpg)
+![防水](/assets/img/posts/2021-04-06-decoration-2/GanQuFangShui.jpg)
 
 ## Day 83 贴墙砖/大理石窗台
 贴瓷砖的师傅会问窗户外面要不要也贴瓷砖，也可以选择直接水泥抹平。  
 浴室、卫生间建议做美缝（本质是一种AB胶，固化后会变成光滑的硬面，和瓷砖差不多），不容易脏。  
 厨房、阳台看个人选择，毕竟美缝成本相对高。  
 图为贴好的墙砖（卫生间）。
-![墙砖](/assets/images/2021-04-06-decoration-2/QiangZhuan.jpg)
+![墙砖](/assets/img/posts/2021-04-06-decoration-2/QiangZhuan.jpg)
 
 
 ## Day 87 做阳台下水
 老房子原有的阳台下水很多都是在之前的装修过程中堵掉了，这里我们需要自己做下水。（为了安装洗衣机和台盆）  
-![下水](/assets/images/2021-04-06-decoration-2/YangTaiShuiGuan.jpg)
+![下水](/assets/img/posts/2021-04-06-decoration-2/YangTaiShuiGuan.jpg)
 >安装下水要注意，每个下水口要单独一根管，不然很容易出现反水（比如洗衣机一排水，地面地漏往回冒）
 
 
 ## Day 89 贴地砖/大理石门槛
 为了省钱，橱柜后面一般是贴隐藏砖（反正看不见）。  
 图中没有贴砖的部分，以及墙面下方的砖都是柜子后面，贴的都是便宜砖。  
-![地砖](/assets/images/2021-04-06-decoration-2/DiZhuan.jpg)
+![地砖](/assets/img/posts/2021-04-06-decoration-2/DiZhuan.jpg)
 
 
 <p id="大理石的坑">大理石门槛石坑比较多，当时也是被设计师忽悠说分割区域好看。</p>  
@@ -84,7 +84,7 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 2. 其次，虽然可以补，但是抛光后的部分光泽度和原本的石头是不一样的。  
 3. 滑，为了这我买了好多双拖鞋，只有那种软的塑料拖鞋不打滑，棉拖几乎都打滑。  
 
-![大理石](/assets/images/2021-04-06-decoration-2/DaLiShi.jpg)
+![大理石](/assets/img/posts/2021-04-06-decoration-2/DaLiShi.jpg)
 
 ## Day 91 闭水试验
 这个需要楼下邻居配合（一般都配合），施工队也会自己去沟通。  
@@ -93,13 +93,13 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 
 ## Day 95 开始做吊顶，刷防火涂料
 室内吊顶都是木龙骨+石膏板，需要刷防火涂料。图中白色的漆就是防火涂料。  
-![防火](/assets/images/2021-04-06-decoration-2/FireResistance.jpg)
+![防火](/assets/img/posts/2021-04-06-decoration-2/FireResistance.jpg)
 
 ## Day 98 瓷砖吊顶完成，安装热水器
 燃气热水器可以在瓷砖装好到装橱柜这段时间内安装。  
 >橱柜装好后不方便再做燃气暗管，燃气热水器安装一般都会把燃气灶的头也预留出来。  
 
-![热水器](/assets/images/2021-04-06-decoration-2/ReShuiQi.jpg)
+![热水器](/assets/img/posts/2021-04-06-decoration-2/ReShuiQi.jpg)
 
 <p id="燃气热水器的选择"></p>  
 
@@ -149,7 +149,7 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 
 <p id="智能开关的选择">智能开关也有两种，一种是火线版，一种是零火线版。</p>  
 
-![Circuit](/assets/images/2021-04-06-decoration-2/Circuit.jpg)
+![Circuit](/assets/img/posts/2021-04-06-decoration-2/Circuit.jpg)
 图中是单控，双控以及零火线智能开关的接线示意图。  
 一般的单控，双控开关只断开灯泡火线，所以没有零线连接。  
 零火线版要求**独立零线连接开关**（适合新装修），优点是独立供电，对灯泡没有要求。  
@@ -162,7 +162,7 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 ## Day 117 淋浴房/厨房门安装
 为了配合整体风格，厨房门选择了玻璃门，所以和淋浴房一起安装的。  
 浴室是两固一开的标准长方形淋浴房门，厨房是是双层玻璃门。  
-![Door](/assets/images/2021-04-06-decoration-2/Door.jpg)
+![Door](/assets/img/posts/2021-04-06-decoration-2/Door.jpg)
 
 ## Day 126 买干区台盆龙头、买床垫
 干区柜用了和橱柜一样的，不是整体浴室柜，所以单独买了台盆和龙头（选择也多一些）。  
@@ -175,7 +175,7 @@ excerpt: 装修笔记第二篇：硬装泥瓦-油漆阶段。文中地暖安装�
 ## Day 130 油漆验收
 油漆干了，和监理一起进行了油漆验收，指出了几处不足。  
 不过在后续安装过程中墙面肯定还会有损伤，所以最后还会补一次油漆。  
-![油漆](/assets/images/2021-04-06-decoration-2/YouQi.jpg)
+![油漆](/assets/img/posts/2021-04-06-decoration-2/YouQi.jpg)
 
 >在生活中墙面磕磕碰碰很正常，所以家里可以备一个白色的快干腻子膏和一个砂纸架，几张400目或者800目砂纸。  
 >快干腻子膏抹在墙上，拿个刮板尽量刮平，20分钟左右干了拿砂纸打磨到和墙面一样平就跟新的一样了，很方便。  

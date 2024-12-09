@@ -19,7 +19,7 @@ Lenovo 2016年前上市的机器都有bios白名单限制，导致很多硬件�
 
 Intel 112BNHMW 与 MI wifi
 
-![112b-and-mi](/assets/images/2020-02-21-thinkpadx201i-refresh-2/112b-and-mi.jpg)
+![112b-and-mi](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/112b-and-mi.jpg)
 
 为了支持更多硬件，我们需要将bios中的白名单去掉，这里参考了[【转帖】转发一个从国外论坛弄来的x201 1.40bios(白名单及SLIC2.1)](https://forum.51nb.com/thread-1366013-1-1.html)文章中的压缩包，为了方便保存和下载，这里重新打包压缩了一下。
 
@@ -43,23 +43,23 @@ Intel 112BNHMW 与 MI wifi
 
 Intel 7260HMW
 
-![7260hmw](/assets/images/2020-02-21-thinkpadx201i-refresh-2/7260hmw.jpg)
+![7260hmw](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/7260hmw.jpg)
 
 Intel 7260HMW 与 Intel 112BNHMW
 
-![7260-112b](/assets/images/2020-02-21-thinkpadx201i-refresh-2/7260-112b.jpg)
+![7260-112b](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/7260-112b.jpg)
 
 更换重启后，自动识别了网卡与bluetooth。
 
-![bluetooth-setting](/assets/images/2020-02-21-thinkpadx201i-refresh-2/bluetooth-setting.png)
+![bluetooth-setting](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/bluetooth-setting.png)
 
 Wifi链路速度，连接的是5G wifi。
 
-![wifi-link-speed](/assets/images/2020-02-21-thinkpadx201i-refresh-2/wifi-link-speed.png)
+![wifi-link-speed](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/wifi-link-speed.png)
 
 Speedtest，终于不是感人的十位数了。
 
-![speedtest-result](/assets/images/2020-02-21-thinkpadx201i-refresh-2/speedtest-result.png)
+![speedtest-result](/assets/img/posts/2020-02-21-thinkpadx201i-refresh-2/speedtest-result.png)
 
 ## 3. 后记
 

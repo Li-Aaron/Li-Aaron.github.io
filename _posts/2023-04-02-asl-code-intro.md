@@ -125,7 +125,7 @@ DefinitionBlock ("", "DSDT", 2, "", "", 0x1)
 
 上面表达式生成的OperationRegion如下：
 
-![fields.png](/assets/images/2023-04-02-asl-code-intro/fields.png)
+![fields.png](/assets/img/posts/2023-04-02-asl-code-intro/fields.png)
 （本图片来自[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)）
 
 > 注：OperationRegion也是ObjectType的一种
@@ -205,7 +205,7 @@ DefinitionBlock ("DsdtTable.aml", "DSDT",
 
 举个例子：
 
-![namepath.png](/assets/images/2023-04-02-asl-code-intro/namepath.png)
+![namepath.png](/assets/img/posts/2023-04-02-asl-code-intro/namepath.png)
 
 > 注：NamePath中符号的意义  
 > `\` - 根节点  

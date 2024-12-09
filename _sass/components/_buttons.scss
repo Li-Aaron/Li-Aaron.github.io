@@ -1,86 +1,51 @@
-// ------------------------------
-// BUTTONS
-// ------------------------------
+@use '../abstracts/variables' as v;
+@use '../abstracts/breakpoints' as bp;
 
-.btn {
-  padding: 10px 20px;
-  border: 1px solid $primary-color;
-  border-radius: 20px;
-  font-size: .9em;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-shadow: none;
-  color: $primary-color;
-  -webkit-font-smoothing: antialiased;
-
-  &:hover {
-    color: darken($primary-color, 15%);
-    border-color: darken($primary-color, 15%);
-  }
-
-}
-
-.btn-border-small {
-  border: 1px solid $primary-color;
-  border-radius: 20px;
-  padding: 6px 8px;
-  font-size: .8em;
-  margin-left: 10px;
-}
-
-.btn-secondary {
-  border-color: $secondary-color;
-  color: $secondary-color;
-
-  &:hover {
-    color: darken($secondary-color, 15%);
-    border-color: darken($secondary-color, 15%);
-  }
-
-}
-
-.btn-tertiary {
-  border-color: $gray-dark;
-  color: $gray-dark;
-
-  &:hover {
-    color: darken($gray-dark, 15%);
-    border-color: darken($gray-dark, 15%);
-  }
-
-}
-
-.btn-large {
-  padding: 10px 24px;
-  font-size: 1.1em;
-}
-
-.btn-small {
-  padding: 8px 12px;
-  font-size: .7em;
-}
-
-// ------------------------------
-// MOBILE MENU BUTTON
-// ------------------------------
-
-.btn-mobile-menu {
-  display: none;
+#back-to-top {
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
   position: fixed;
-  z-index: 9999;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 35px;
-  background: rgba($gray-darkest,.98);
-  border-bottom: 1px solid rgba(255,255,255,.1);
-  text-align: center;
-}
+  right: 1rem;
+  bottom: calc(v.$footer-height-large - v.$back2top-size / 2);
+  background: var(--button-bg);
+  color: var(--btn-backtotop-color);
+  padding: 0;
+  width: v.$back2top-size;
+  height: v.$back2top-size;
+  border-radius: 50%;
+  border: 1px solid var(--btn-backtotop-border-color);
+  transition: opacity 0.5s ease-in-out, transform 0.2s ease-out;
 
-.btn-mobile-menu__icon,
-.btn-mobile-close__icon {
-  position: relative;
-  top: 10px;
-  color: #FFF;
+  @include bp.lg {
+    right: 5%;
+    bottom: calc(v.$footer-height - v.$back2top-size / 2);
+  }
+
+  @include bp.xxl {
+    right: calc((100vw - v.$sidebar-width - 1140px) / 2 + 3rem);
+  }
+
+  @include bp.xxxl {
+    right: calc(
+      (100vw - v.$sidebar-width-large - v.$main-content-max-width) / 2 + 2rem
+    );
+  }
+
+  &:hover {
+    transform: translate3d(0, -5px, 0);
+    -webkit-transform: translate3d(0, -5px, 0);
+  }
+
+  i {
+    line-height: v.$back2top-size;
+    position: relative;
+    bottom: 2px;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }

@@ -14,11 +14,11 @@ A可以是网关、路由器、或者客户端/服务器自身部署的网络代
 ## 2. 什么是正向代理
 客户端使用**代理协议**通过**已知**的代理服务去访问互联网/特定网络的过程。  
 正向代理是**客户端**的代理，通常和客户端同属一个局域网/内网。  
-![proxy](/assets/images/2021-09-15-proxy-and-nat-traversal/proxy.png)
+![proxy](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/proxy.png)
 
 ### 2.1 正向代理：一般场景示例
 下图演示一个局域网内使用代理来管理外网通信，一般应用在公司网络：  
-![forward_proxy](/assets/images/2021-09-15-proxy-and-nat-traversal/forward_proxy.gif)
+![forward_proxy](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/forward_proxy.gif)
 防火墙阻止除了代理服务器外的所有内网机器直接访问外网。  
 内网机器通过代理服务器访问外网。  
 代理服务器和防火墙可以都部署在路由器上，也可以分别部署在不同机器上。  
@@ -60,7 +60,7 @@ Allow 192.168.1.0/24
 
 ### 2.4 正向代理：透明代理示例
 下图演示一个局域网内使用透明代理来管理外网通信：  
-![transparent](/assets/images/2021-09-15-proxy-and-nat-traversal/transparent.gif)
+![transparent](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/transparent.gif)
 透明代理的优势在于，客户端无需知道代理服务器的地址与协议。  
 
 
@@ -85,11 +85,11 @@ iptables -t nat -A PREROUTING -p tcp -s 192.168.8.0/24 ! -d 192.168.8.0/24 -j RE
 ## 3. 什么是反向代理
 客户端通过网络访问反向代理服务器，通过反向代理服务器获取服务器资源，在这个过程中客户端**不知道**反向代理的存在（客户端将反向代理视为服务器）。  
 反向代理是**服务器**的代理，通常和服务器同属一个局域网/内网。  
-![reversed_proxy](/assets/images/2021-09-15-proxy-and-nat-traversal/reversed_proxy.png)
+![reversed_proxy](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/reversed_proxy.png)
 
 ### 3.1 反向代理：一般场景示例
 下图演示一个局域网内使用反向代理来管理多个web服务器资源，一般应用在公网IP资源有限的情况：  
-![reversed_proxy](/assets/images/2021-09-15-proxy-and-nat-traversal/reversed_proxy.gif)
+![reversed_proxy](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/reversed_proxy.gif)
 防火墙阻止除了代理服务器外的所有外网机器直接访问内网。  
 反向代理服务器通过反向代理协议将不同服务器上的Web服务映射到本机不同的网络地址。  
 代理服务器具有公网IP地址/域名。  
@@ -153,13 +153,13 @@ caddy hash-password
 
 ### 3.4 反向代理：CDN示例
 下图演示一个多个客户端通过CDN访问网络资源：  
-![cdn](/assets/images/2021-09-15-proxy-and-nat-traversal/cdn.gif)
+![cdn](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/cdn.gif)
 三个**IP不同**的反向代理服务器（CDN）代理同一个网络资源。  
 不同的客户端在请求DNS时，DNS分配给客户端**速度最快**的IP地址，从而使客户端访问最快的CDN，一般情况下可以加速客户端的网络访问。  
 
 ### 3.5 反向代理：负载均衡示例
 下图演示一个服务器集群的负载均衡：  
-![balancer](/assets/images/2021-09-15-proxy-and-nat-traversal/balancer.gif)
+![balancer](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/balancer.gif)
 服务器集群提供的web服务一般是**一样**的，负载均衡可以根据当前服务器的空闲程度合理分配网络连接，从而有效提升数据处理能力。  
 在负载均衡服务器挂掉的时候，备份服务器可以顶上。  
 负载均衡的实现也是一种反向代理。  
@@ -169,12 +169,12 @@ caddy hash-password
 
 与反向代理不同的是，内网穿透所建立的专用信道需要一直保持，且发起连接的方向是相反的。  
 
-![nat_traversal](/assets/images/2021-09-15-proxy-and-nat-traversal/nat_traversal.png)
+![nat_traversal](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/nat_traversal.png)
 
 ### 4.1 内网穿透+反向代理示例
 内网穿透可以单独使用，也可以配合反向代理使用（通常是用多个子域名代理不同的端口，以及加HTTPS支持）。  
 下图演示一个内网穿透与反向代理结合的例子：  
-![nat_traversal](/assets/images/2021-09-15-proxy-and-nat-traversal/nat_traversal.gif)
+![nat_traversal](/assets/img/posts/2021-09-15-proxy-and-nat-traversal/nat_traversal.gif)
 内网机器通过 [FRP](https://gofrp.org/docs/) 与外网机器建立连接，并将其 8080 端口映射到外网机的 8080 端口，外网机的反向代理将 `http://101.120.252.139:8080` 代理到 `https://some.domain.com` 。  
 这里可以在外网机防火墙配置拒绝 8080 端口的访问，以阻止通过 HTTP 的访问。  
 

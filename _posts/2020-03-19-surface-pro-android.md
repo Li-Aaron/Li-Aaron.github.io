@@ -8,7 +8,7 @@ excerpt: 老电脑系列姊妹篇，给初代Surface pro安装android x86和chro
 收拾箱子的时候，发现老surface pro在箱底好多年了，这款14年买的初代surface pro已经不能满足现在windows 10的需求了，简直卡到爆炸。  
 但是Linux系统在[去年复活了老Thinkpad X201i]({{site.url}}/2019/11/thinkpadx201i-refresh/)之后，已经有一台了，再多一台反而累赘。
 
-![surface](/assets/images/2020-03-19-surface-pro-android/surface.jpg)
+![surface](/assets/img/posts/2020-03-19-surface-pro-android/surface.jpg)
 
 因为是触屏本首先想到的是安装android x86体验一下安卓平板，现在开始搞起。
 
@@ -27,13 +27,13 @@ Surface Pro的U盘启动在Microsoft的网站上有详细的说明，反正就�
 [Boot Surface from a USB device](https://support.microsoft.com/en-us/help/4023511/surface-boot-surface-from-a-usb-device)  
 
 首先按住音量上开机，开机后进入UEFI，将TPM和Secure boot都关闭。
-![uefi](/assets/images/2020-03-19-surface-pro-android/uefi.jpg)
+![uefi](/assets/img/posts/2020-03-19-surface-pro-android/uefi.jpg)
 
 这时Surface Pro的启动界面会变成丑陋的红色（只能忍了）
-![redscreen](/assets/images/2020-03-19-surface-pro-android/redscreen.jpg)
+![redscreen](/assets/img/posts/2020-03-19-surface-pro-android/redscreen.jpg)
 
 然后按住音量下开机，系统会自动寻找U盘引导启动，这时便可以进入Android x86 Uefi Grub了。
-![android-grub](/assets/images/2020-03-19-surface-pro-android/android-grub.jpg)
+![android-grub](/assets/img/posts/2020-03-19-surface-pro-android/android-grub.jpg)
 
 ## 3. Android x86系统安装
 在安装的过程中遇到了一些问题，首先正常安装Android系统后开机仍然会自动进入Uefi（无系统状态）。
@@ -41,16 +41,16 @@ Surface Pro的U盘启动在Microsoft的网站上有详细的说明，反正就�
 这种情况是我在安装过程中，将所有的磁盘分区都删掉了，尝试各种办法没有解决，最后安装了一次ubuntu，再安装Android系统反而成功了，主要是ubuntu在安装的时候生成了一个vfat格式的分区，在安装android时不要删除这个vfat分区，直接安装在ext4分区就正常了。
 
 安装ubuntu  
-![ubuntu-grub](/assets/images/2020-03-19-surface-pro-android/ubuntu-grub.jpg)
+![ubuntu-grub](/assets/img/posts/2020-03-19-surface-pro-android/ubuntu-grub.jpg)
 安装成功后，重启系统，安装Android X86  
-![ubuntu-login](/assets/images/2020-03-19-surface-pro-android/ubuntu-login.jpg)
+![ubuntu-login](/assets/img/posts/2020-03-19-surface-pro-android/ubuntu-login.jpg)
 选择安装在ext4分区  
-![android-install](/assets/images/2020-03-19-surface-pro-android/android-install.jpg)
+![android-install](/assets/img/posts/2020-03-19-surface-pro-android/android-install.jpg)
 一路回车到底  
-![android-install-finish](/assets/images/2020-03-19-surface-pro-android/android-install-finish.jpg)
+![android-install-finish](/assets/img/posts/2020-03-19-surface-pro-android/android-install-finish.jpg)
 现在可以体验Android系统了。  
-![android-openscreen](/assets/images/2020-03-19-surface-pro-android/android-openscreen.jpg)
-![android-webpage](/assets/images/2020-03-19-surface-pro-android/android-webpage.jpg)
+![android-openscreen](/assets/img/posts/2020-03-19-surface-pro-android/android-openscreen.jpg)
+![android-webpage](/assets/img/posts/2020-03-19-surface-pro-android/android-webpage.jpg)
 
 
 ## 4. Chrome OS系统安装
@@ -60,9 +60,9 @@ Android x86在surface上还是有诸多bug的，比如有时会莫名的旋转�
 CloudReady制作U盘启动盘比较简单，下载Windows下的[USB maker](https://usb-maker-downloads.neverware.com/stable/cloudready-free/cloudready-usb-maker.exe)，插入U盘直接等待制作完成就可以了。  
 
 U盘启动的方式一样，CloudReady 会直接Boot到Live OS中供体验，我们可以在Live OS中选择install OS，等待一段时间后Surface会自动关机，这时拔出U盘启动即可。  
-![chromeos](/assets/images/2020-03-19-surface-pro-android/chromeos.jpg)
+![chromeos](/assets/img/posts/2020-03-19-surface-pro-android/chromeos.jpg)
 现在可以体验Chrome OS了。  
-![chromeos-webpage](/assets/images/2020-03-19-surface-pro-android/chromeos-webpage.jpg)
+![chromeos-webpage](/assets/img/posts/2020-03-19-surface-pro-android/chromeos-webpage.jpg)
 
 ## 5. 系统比较
 关于这两种系统的三个版本的优缺点，进行一下简单的比较  

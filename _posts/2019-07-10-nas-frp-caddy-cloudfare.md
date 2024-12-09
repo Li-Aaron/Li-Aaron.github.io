@@ -9,7 +9,7 @@ excerpt: 黑裙如何实现外网访问？本文详细介绍使用Frp内网穿�
 
 前一阵蜗牛星际炸雷了之后，网上很多小机箱搞的很火爆。鉴于一直想搞一个NAS但又苦于昂贵的价格，赶上这班车直接就剁了一个A款。
 
-![](/assets/images/2019-07-10-nas-frp-caddy-cloudfare/A.JPG)
+![](/assets/img/posts/2019-07-10-nas-frp-caddy-cloudfare/A.JPG)
 
 选择A款的原因，其实是因为便宜，在一个有个外面板不会直接漏硬盘在外面，网上有很多对比评测。
 
@@ -23,7 +23,7 @@ excerpt: 黑裙如何实现外网访问？本文详细介绍使用Frp内网穿�
 
 要使用Frpc，首先需要安装docker，在套件中心的第三方中找到Docker，安装。
 
-![](/assets/images/2019-07-10-nas-frp-caddy-cloudfare/docker.JPG)
+![](/assets/img/posts/2019-07-10-nas-frp-caddy-cloudfare/docker.JPG)
 
 在Docker中的注册表搜索frpc，安装[oldiy/frpc](https://hub.docker.com/r/oldiy/frpc)这一映像，详见[使用说明](https://hub.docker.com/r/oldiy/frpc)。
 
@@ -125,7 +125,7 @@ nas.your.domain {
 
 Caddy的安装文件需要在网站上定制（增加cloudflare的支持），在[Download](https://caddyserver.com/download)界面Plugin中添加dns.cloudflare
 
-![](/assets/images/2019-07-10-nas-frp-caddy-cloudfare/Caddy.JPG)
+![](/assets/img/posts/2019-07-10-nas-frp-caddy-cloudfare/Caddy.JPG)
 
 Caddy的配置文件也需要相应修改：
 

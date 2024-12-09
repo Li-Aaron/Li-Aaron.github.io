@@ -1,0 +1,18 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+.px-1 img {
+  max-width: 100%;
+  max-height: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+}

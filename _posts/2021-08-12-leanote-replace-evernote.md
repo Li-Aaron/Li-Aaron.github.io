@@ -13,7 +13,7 @@ excerpt: 印象笔记广告越来越多，即便VVVIP会员也免不了遭受广
 
 Leanote网页端：
 
-![leanote1](/assets/images/2021-08-12-leanote-replace-evernote/leanote1.png)
+![leanote1](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote1.png)
 
 Leanote（自建服务器）相比于印象笔记**优缺点**如下：
 
@@ -89,7 +89,7 @@ networks:
 /leanote/src/github.com/leanote/leanote/public/upload
 ```
 并增加Owner用户组并允许读取/写入，否则mongodb会不断重启。
-![synology-setting](/assets/images/2021-08-12-leanote-replace-evernote/synology-setting.png)
+![synology-setting](/assets/img/posts/2021-08-12-leanote-replace-evernote/synology-setting.png)
 
 如果使用默认配置，则直接将`.`（即`leanote-docker`）目录设置增加Owner用户组即可。
 
@@ -100,7 +100,7 @@ docker-compose up -d
 
 稍等一会，即可以打开`http://localhost:9001`（或者docker机器的内网IP地址）。
 
-![leanote2](/assets/images/2021-08-12-leanote-replace-evernote/leanote2.png)
+![leanote2](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote2.png)
 
 
 ## 2. 设置admin账户
@@ -110,14 +110,14 @@ docker-compose up -d
 密码:   abc123
 ```
 登录之后修改下密码：
-![leanote_setting2](/assets/images/2021-08-12-leanote-replace-evernote/leanote_setting2.png)
-![leanote_setting1](/assets/images/2021-08-12-leanote-replace-evernote/leanote_setting1.png)
+![leanote_setting2](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote_setting2.png)
+![leanote_setting1](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote_setting1.png)
 
 建议关闭注册功能：
-![leanote_setting5](/assets/images/2021-08-12-leanote-replace-evernote/leanote_setting5.png)
+![leanote_setting5](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote_setting5.png)
 
 设置一下上传文件大小限制：
-![leanote_setting4](/assets/images/2021-08-12-leanote-replace-evernote/leanote_setting4.png)
+![leanote_setting4](/assets/img/posts/2021-08-12-leanote-replace-evernote/leanote_setting4.png)
 
 
 ## 3. 反向代理&内网穿透
@@ -201,7 +201,7 @@ server {
 ### 3.4 SSL证书申请
 证书申请可以使用[这个网站](https://freessl.cn/)，每次可以申请一年的免费证书。
 https://freessl.cn/
-![freessl](/assets/images/2021-08-12-leanote-replace-evernote/freessl.png)
+![freessl](/assets/img/posts/2021-08-12-leanote-replace-evernote/freessl.png)
 
 
 ## 4. 客户端下载
@@ -214,16 +214,16 @@ iOS移动端： [https://itunes.apple.com/app/leanote/id1022302858]([https://itu
 Android移动端： [https://ali-cdn.leanote.top/apk/Leanote-v1.0-beta.7.apk](https://ali-cdn.leanote.top/apk/Leanote-v1.0-beta.7.apk)
 
 ### 4.1 Windows
-![client2](/assets/images/2021-08-12-leanote-replace-evernote/client2.png)
+![client2](/assets/img/posts/2021-08-12-leanote-replace-evernote/client2.png)
 
 登录自建服务的时候要填写`https://`开头。
 
-![client1](/assets/images/2021-08-12-leanote-replace-evernote/client1.png)
+![client1](/assets/img/posts/2021-08-12-leanote-replace-evernote/client1.png)
 
 > 2022.9.6更新：  
 > 经过不懈努力（人菜瘾大），终于找到代理的设置实际是在needle.js中。  
 > 将`resource/app/node_modules/needle/lib/needle.js`中的`options.proxy`改成`'http://proxy.server:port'`即可  
-> ![proxy1](/assets/images/2021-08-12-leanote-replace-evernote/proxy1.png)  
+> ![proxy1](/assets/img/posts/2021-08-12-leanote-replace-evernote/proxy1.png)  
 > 详见[Leanote APP with proxy]({{site.url}}/2022/09/leanote-app-with-proxy/)
 > （Leanote官方已经不维护了，issue都关了，有人都在PR里面骂上了。）  
 
@@ -234,13 +234,13 @@ Android移动端： [https://ali-cdn.leanote.top/apk/Leanote-v1.0-beta.7.apk](ht
 试用版可以试用31天，之后需要花钱购买license。
 
 一图流配置说明：
-![proxy](/assets/images/2021-08-12-leanote-replace-evernote/proxy.png)
+![proxy](/assets/img/posts/2021-08-12-leanote-replace-evernote/proxy.png)
 
 之后重启Leanote客户端即可正常联网。
 
 ### 4.2 Linux
 这里使用了Ubuntu18.04desktop，在Ubuntu下界面和Windows差不多。
-![ubuntu1](/assets/images/2022-04-01-Leanote-Linux-app-startup/2.png)
+![ubuntu1](/assets/img/posts/2022-04-01-Leanote-Linux-app-startup/2.png)
 
 在启动器里面增加图标
 ```bash
@@ -267,17 +267,17 @@ StartupWMClass=leanote-desktop
 ```
 
 效果如下(2022/4/1更新)：
-![ubuntu2](/assets/images/2022-04-01-Leanote-Linux-app-startup/1.png)
+![ubuntu2](/assets/img/posts/2022-04-01-Leanote-Linux-app-startup/1.png)
 
 > **未解决问题**：侧边栏图标仍无法显示  
 > 2022/4/1 更新：问题解决，参考上方ini文件  
 
 ### 4.3 iOS
 iPhone界面：
-![ios1](/assets/images/2021-08-12-leanote-replace-evernote/ios1.png)
+![ios1](/assets/img/posts/2021-08-12-leanote-replace-evernote/ios1.png)
 
 iPad界面：
-![ios3](/assets/images/2021-08-12-leanote-replace-evernote/ios3.png)
+![ios3](/assets/img/posts/2021-08-12-leanote-replace-evernote/ios3.png)
 无论是iPhone还是iPad，界面都不是很好用，只能说凑合看吧。
 
 ## 5. 印象笔记导入
@@ -289,7 +289,7 @@ Windows客户端支持导入印象笔记格式（enex)以及html格式：
 没有能完美解决的方法，只能手动修改一些重要的文章（累死我了）。
 
 图为html格式导入流程：
-![porting](/assets/images/2021-08-12-leanote-replace-evernote/porting.png)
+![porting](/assets/img/posts/2021-08-12-leanote-replace-evernote/porting.png)
 
 
 
@@ -309,8 +309,8 @@ Windows客户端支持导入印象笔记格式（enex)以及html格式：
 
 
 如果是群晖，则使用`控制面板`--`计划任务`
-![crontab2](/assets/images/2021-08-12-leanote-replace-evernote/crontab2.png)
-![crontab3](/assets/images/2021-08-12-leanote-replace-evernote/crontab3.png)
+![crontab2](/assets/img/posts/2021-08-12-leanote-replace-evernote/crontab2.png)
+![crontab3](/assets/img/posts/2021-08-12-leanote-replace-evernote/crontab3.png)
 
 脚本示例
 ```bash
