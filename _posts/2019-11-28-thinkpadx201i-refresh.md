@@ -5,7 +5,7 @@ date: 2019-11-28 18:00:00.000000000 +08:00
 description: 老电脑系列第一篇，介绍Thinkpad X201i拆机，清灰，更换风扇、硬盘、电池、以及增加内存的过程。
 author: aaron-li
 categories: [玩机攻略, 老电脑]
-tags: [thinkpad, thinkpad x201i, refresh]  
+tags: [thinkpad, thinkpad x201i, refresh] 
 ---
 
 最近搞网络设备的时候发现手头没有什么趁手的机器，surface pro放在腿上特别扭，又想躺在床上不用台式机，就想起前阵子给父上买了个小米Air，淘汰下来的这台老Thinkpad X201i了。

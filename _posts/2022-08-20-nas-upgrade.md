@@ -5,7 +5,7 @@ date: 2022-08-20 16:00:00.000000000 +08:00
 description: 本文介绍黑裙升级CPU主板，系统信息更换正确CPU名称，以及开启video station中truehd/dts/ac3音频解码的方法。
 author: aaron-li
 categories: [玩机攻略, 黑裙]
-tags: [synology, upgrade, video station]  
+tags: [synology, upgrade, video station]
 ---
 
 

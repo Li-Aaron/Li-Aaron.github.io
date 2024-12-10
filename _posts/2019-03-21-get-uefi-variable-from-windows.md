@@ -5,7 +5,7 @@ date: 2019-03-21 21:00:00.000000000 +08:00
 description: 本文介绍如何通过Windows API实现在Windows OS下对UEFI variable的访问。
 author: aaron-li
 categories: [代码相关, BIOS]
-tags: [uefi, uefi variable, windows api, windows]  
+tags: [uefi, uefi variable, windows api, windows]
 ---
 
 ## 0. 前言

@@ -5,7 +5,7 @@ date: 2020-02-21 18:00:00.000000000 +08:00
 description: 老电脑系列第二篇，给Thinkpad X201i刷BIOS白名单，更换无线网卡。
 author: aaron-li
 categories: [玩机攻略, 老电脑]
-tags: [thinkpad, thinkpad x201i, refresh] 
+tags: [thinkpad, thinkpad x201i, refresh]
 ---
 
 继[去年复活了老Thinkpad X201i]({{site.url}}/2019/11/thinkpadx201i-refresh/)之后，用了一段时间，无论是写文章还是调试网络还是比较方便的。

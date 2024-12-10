@@ -5,7 +5,7 @@ date: 2022-12-01 20:30:00.000000000 +08:00
 description: 本文介绍如何使用SketchUp画简单的3D图形，并展示3D打印的Erdodox手托。
 author: aaron-li
 categories: [工具指南]
-tags: [sketchup, 3d, ergodox]  
+tags: [sketchup, 3d, ergodox]
 ---
 
 多年前定制了一个基于[Ergodox](https://ergodox-ez.com/)的开源键盘，一直作为主力键盘来使用。  

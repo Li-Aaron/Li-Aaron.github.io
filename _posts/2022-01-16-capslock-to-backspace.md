@@ -5,7 +5,7 @@ date: 2022-1-16 17:00:00.000000000 +08:00
 description: 本文介绍如何在Windows/Linux下，将CapsLock键修改为BackSpace。
 author: aaron-li
 categories: [工具指南]
-tags: [capslock, backspace] 
+tags: [capslock, backspace]
 ---
 
 ## 1. Windows

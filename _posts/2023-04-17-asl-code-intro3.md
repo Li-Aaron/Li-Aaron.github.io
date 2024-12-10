@@ -5,7 +5,7 @@ date: 2023-04-17 19:30:00.000000000 +08:00
 description: 本文介绍ASL语言的部分隐式转换与Method调用。
 author: aaron-li
 categories: [代码相关, BIOS]
-tags: [asl]  
+tags: [asl]
 ---
 
 续上两篇，这一篇我们介绍ASL语言的部分隐式转换与Method调用  

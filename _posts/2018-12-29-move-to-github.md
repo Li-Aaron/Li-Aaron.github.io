@@ -4,7 +4,7 @@ title: Move to github.io
 date: 2018-12-29 21:29:24.000000000 +08:00
 author: aaron-li
 categories: [杂七杂八]
-tags: [blog]  
+tags: [blog]
 ---
 
 在[github.io](https://pages.github.com/)安新家了。cnblogs的编辑器虽然方便，但是模版太过于老旧了。  

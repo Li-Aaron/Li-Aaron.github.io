@@ -5,7 +5,7 @@ date: 2023-04-02 14:00:00.000000000 +08:00
 description: 本文介绍ASL语言的基本语法，作用域以及NamePath。
 author: aaron-li
 categories: [代码相关, BIOS]
-tags: [asl]  
+tags: [asl]
 ---
 
 最近的工作中用到了很多ASL的代码，之前一直一知半解的看，发现到用的时候不熟练还是很影响效率。

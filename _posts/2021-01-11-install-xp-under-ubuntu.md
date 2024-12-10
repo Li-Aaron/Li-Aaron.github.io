@@ -5,7 +5,7 @@ date: 2021-1-11 18:00:00.000000000 +08:00
 description: 老电脑系列番外篇，给Thinkpad X201i安装Windows XP，Windows下安装Ubuntu很方便，反过来还是要费一番心思的。
 author: aaron-li
 categories: [玩机攻略, 老电脑]
-tags: [thinkpad, thinkpad x201i, refresh, ubuntu, windows xp] 
+tags: [thinkpad, thinkpad x201i, refresh, ubuntu, windows xp]
 ---
 
 

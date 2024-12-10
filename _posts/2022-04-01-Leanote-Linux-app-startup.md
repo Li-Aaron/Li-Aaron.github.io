@@ -5,7 +5,7 @@ date: 2022-04-01 22:00:00.000000000 +08:00
 description: 本文介绍之前没有解决的Leanote APP在Linux没有图标的问题。这里重新介绍一下添加启动器和图标的方法。
 author: aaron-li
 categories: [工具指南]
-tags: [leanote, proxy] 
+tags: [leanote, proxy]
 ---
 
 本文介绍之前没有解决的Leanote APP在Linux没有图标的问题。  

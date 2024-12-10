@@ -4,7 +4,7 @@ title: windows下 gvim 配置成 Source Insight
 date: 2018-04-30 17:51:00.000000000 +08:00
 author: aaron-li
 categories: [工具指南]
-tags: [vim, gvim, source insight, ide]  
+tags: [vim, gvim, source insight, ide]
 ---
 移动自cnblogs: [windows下 gvim8.0 编译器配置](https://www.cnblogs.com/ac2sherry/p/8973649.html)
 

@@ -5,7 +5,7 @@ date: 2019-01-02 18:00:00.000000000 +08:00
 description: 用树莓派做远程下载机，可以在外出时方便下载，回家直接看电影。本文详细介绍如何在树莓派上安装并配置Aria2，配置网页服务器并部署AriaNg管理界面，获取公网IP并公网映射或实现内网穿透，以及配置硬盘挂载和SMB服务。
 author: aaron-li
 categories: [玩机攻略, 树莓派]
-tags: [aria2, raspberry pi, 树莓派, ariang, download, smb, 反向代理, 内网穿透]  
+tags: [aria2, raspberry pi, 树莓派, ariang, download, smb, 反向代理, 内网穿透]
 ---
 
 ## 1. 系统安装
