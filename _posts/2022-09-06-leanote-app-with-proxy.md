@@ -2,7 +2,10 @@
 layout: post
 title: Leanote APP with proxy
 date: 2022-09-06 20:00:00.000000000 +08:00
-excerpt: 本文介绍如何让Leanote支持proxy（原软件不支持）。
+description: 本文介绍如何让Leanote支持proxy（原软件不支持）。
+author: aaron-li
+categories: [tools]
+tags: [leanote, proxy]  
 ---
 
 本文介绍之前没有解决的Leanote APP无法使用代理服务器问题。  

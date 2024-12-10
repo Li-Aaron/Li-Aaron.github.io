@@ -2,7 +2,10 @@
 layout: post
 title: ASL语言学习（2）- Debug，常用操作符
 date: 2023-04-10 19:30:00.000000000 +08:00
-excerpt: 本文介绍ASL语言的Debug方式，以及一些常用操作符的使用。
+description: 本文介绍ASL语言的Debug方式，以及一些常用操作符的使用。
+author: aaron-li
+categories: [bios]
+tags: [asl]  
 ---
 
 续上一篇[ASL语言学习（1）- 基本语法，作用域]({{site.url}}/2023/04/asl-code-intro/)，这一篇我们介绍ASL语言的一种debug方法，以及一些常用操作符的使用。

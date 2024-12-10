@@ -2,7 +2,10 @@
 layout: post
 title: Surface pro 安装 android x86/chrome OS
 date: 2020-03-19 18:00:00.000000000 +08:00
-excerpt: 老电脑系列姊妹篇，给初代Surface pro安装android x86和chrome OS，让老电脑给大家带来不同的体验。
+description: 老电脑系列姊妹篇，给初代Surface pro安装android x86和chrome OS，让老电脑给大家带来不同的体验。
+author: aaron-li
+categories: [old machine]
+tags: [surface pro, android x86, chrome os] 
 ---
 
 收拾箱子的时候，发现老surface pro在箱底好多年了，这款14年买的初代surface pro已经不能满足现在windows 10的需求了，简直卡到爆炸。  

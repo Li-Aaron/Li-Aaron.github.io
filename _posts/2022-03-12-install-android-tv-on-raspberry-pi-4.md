@@ -2,7 +2,10 @@
 layout: post
 title: 树莓派 Raspberry Pi 安装 Android TV 与遥控器键位修改
 date: 2022-3-12 08:30:00.000000000 +08:00
-excerpt: 本文介绍在树莓派上安装Android TV的方法，一些基本的ADB指令，以及遥控器键位修改的方法。
+description: 本文介绍在树莓派上安装Android TV的方法，一些基本的ADB指令，以及遥控器键位修改的方法。
+author: aaron-li
+categories: [tools]
+tags: [android, raspberry pi, linageos, adb]  
 ---
 
 ## 0. 前言

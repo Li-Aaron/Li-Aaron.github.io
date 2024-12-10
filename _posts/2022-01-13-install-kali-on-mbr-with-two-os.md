@@ -2,7 +2,10 @@
 layout: post
 title: 在MBR (Legacy BIOS) 双系统下安装Kali实现三系统
 date: 2022-1-13 19:00:00.000000000 +08:00
-excerpt: 老电脑系列番外篇，给装好Ubuntu和Windows xp的Thinkpad X201i再安装Kali，其实安装Kali之后就实现了三系统，不过grub的启动顺序不是想要的，还是修复了一下。
+description: 老电脑系列番外篇，给装好Ubuntu和Windows xp的Thinkpad X201i再安装Kali，其实安装Kali之后就实现了三系统，不过grub的启动顺序不是想要的，还是修复了一下。
+author: aaron-li
+categories: [old machine]
+tags: [thinkpad, thinkpad x201i, refresh, ubuntu, windows xp, kali] 
 ---
 
 

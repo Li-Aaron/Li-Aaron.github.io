@@ -2,7 +2,10 @@
 layout: post
 title: 用 Windows Application 访问 UEFI variable
 date: 2019-03-21 21:00:00.000000000 +08:00
-excerpt: 本文介绍如何通过Windows API实现在Windows OS下对UEFI variable的访问。
+description: 本文介绍如何通过Windows API实现在Windows OS下对UEFI variable的访问。
+author: aaron-li
+categories: [bios]
+tags: [uefi, uefi variable, windows api, windows]  
 ---
 
 ## 0. 前言
