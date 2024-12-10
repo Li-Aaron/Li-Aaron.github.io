@@ -4,7 +4,7 @@ title: 树莓派 Raspberry Pi 安装 Kodi 影音系统
 date: 2021-04-13 18:00:00.000000000 +08:00
 description: 本文介绍树莓派安装Kodi，添加IPTV与电影库；并简要介绍相关网络共享设置，以及影片信息刮削。
 author: aaron-li
-categories: [tools]
+categories: [工具指南]
 tags: [kodi, raspberry pi, iptv, librelec, tinymediamanager]  
 ---
 

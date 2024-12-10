@@ -4,8 +4,8 @@ title: 二手房购房笔记
 date: 2020-07-27 18:00:00.000000000 +08:00
 description: 本文介绍基于找中介的二手房购买的流程，购房所在地是上海，文中提及文中提及等额本息与等额本金的差异，公积金贷款年限，以及产生的主要税费供买房的朋友参考。
 author: aaron-li
-categories: [others]
-tags: [real estate] 
+categories: [杂七杂八]
+tags: [房地产] 
 ---
 
 ## 写在最前面

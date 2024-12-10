@@ -4,8 +4,8 @@ title: 告别印象笔记，使用Leanote自建云笔记
 date: 2021-08-12 10:00:00.000000000 +08:00
 description: 印象笔记广告越来越多，即便VVVIP会员也免不了遭受广告的荼毒，免费用户限制又颇多。本文介绍使用Leanote自建云笔记服务取代印象笔记的方法，一些遇到的问题和解决办法，以及Leanote相比印象笔记的优势与一些不足之处。
 author: aaron-li
-categories: [tools]
-tags: [leanote, fanxiangdaili] 
+categories: [工具指南]
+tags: [leanote, 反向代理] 
 ---
 
 ## 0. 前言

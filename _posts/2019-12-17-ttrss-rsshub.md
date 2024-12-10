@@ -4,7 +4,7 @@ title: TTRSS + RSSHUB 个人RSS服务
 date: 2019-12-17 18:00:00.000000000 +08:00
 description: 如何在众多越来越难用的新闻客户端中保持自己对新闻纯净的要求，本文介绍如何利用TTRSS和RSSHUB打造自己专属的新闻客户端。
 author: aaron-li
-categories: [tools]
+categories: [工具指南]
 tags: [ttrss, rsshub, rss] 
 ---
 

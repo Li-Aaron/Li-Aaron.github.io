@@ -4,7 +4,7 @@ title: 老电脑焕发第二春，Thinkpad X201i复活记
 date: 2019-11-28 18:00:00.000000000 +08:00
 description: 老电脑系列第一篇，介绍Thinkpad X201i拆机，清灰，更换风扇、硬盘、电池、以及增加内存的过程。
 author: aaron-li
-categories: [old machine]
+categories: [玩机攻略, 老电脑]
 tags: [thinkpad, thinkpad x201i, refresh]  
 ---
 

@@ -4,7 +4,7 @@ title: 3D打印个Ergodox键盘手托
 date: 2022-12-01 20:30:00.000000000 +08:00
 description: 本文介绍如何使用SketchUp画简单的3D图形，并展示3D打印的Erdodox手托。
 author: aaron-li
-categories: [tools]
+categories: [工具指南]
 tags: [sketchup, 3d, ergodox]  
 ---
 

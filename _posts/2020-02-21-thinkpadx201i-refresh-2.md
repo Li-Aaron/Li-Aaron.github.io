@@ -4,7 +4,7 @@ title: 老电脑焕发第二春，Thinkpad X201i复活记（续）
 date: 2020-02-21 18:00:00.000000000 +08:00
 description: 老电脑系列第二篇，给Thinkpad X201i刷BIOS白名单，更换无线网卡。
 author: aaron-li
-categories: [old machine]
+categories: [玩机攻略, 老电脑]
 tags: [thinkpad, thinkpad x201i, refresh] 
 ---
 

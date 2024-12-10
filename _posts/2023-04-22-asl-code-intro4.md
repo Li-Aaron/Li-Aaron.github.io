@@ -4,7 +4,7 @@ title: ASL语言学习（4）- OpRegion 实战
 date: 2023-04-22 09:30:00.000000000 +08:00
 description: 本文介绍ASL语言的Operation Region的用法。
 author: aaron-li
-categories: [bios]
+categories: [代码相关, BIOS]
 tags: [asl]  
 ---
 

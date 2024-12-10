@@ -4,8 +4,8 @@ title: 二手房装修笔记（1）
 date: 2020-09-08 18:00:00.000000000 +08:00
 description: 装修笔记第一篇：设计-硬装水电阶段。文中全包半包的区别，网络布局，地板的类型，地暖的类型，以及壁挂马桶的缺陷供装修的朋友参考。
 author: aaron-li
-categories: [others]
-tags: [real estate, furnish] 
+categories: [杂七杂八]
+tags: [房地产, 装修] 
 ---
 
 ## 写在最前面

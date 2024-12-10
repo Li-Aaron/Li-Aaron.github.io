@@ -4,8 +4,8 @@ title: 代理与内网穿透简介
 date: 2021-09-15 19:00:00.000000000 +08:00
 description: 本文介绍正向代理、反向代理、内网穿透的概念以及一些基本的配置方法。
 author: aaron-li
-categories: [tools]
-tags: fanxiangdaili, neiwangchuantou] 
+categories: [工具指南]
+tags: [反向代理, 内网穿透] 
 ---
 
 ## 1. 什么是代理
