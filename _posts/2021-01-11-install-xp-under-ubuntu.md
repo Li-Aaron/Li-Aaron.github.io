@@ -33,13 +33,13 @@ tags: [thinkpad, thinkpad x201i, refresh, ubuntu, windows xp]
 只有Legacy BIOS的老电脑，使用UltraISO生成的安装盘是无法正常boot的。  
 ![UltraISO-image-gen](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/ultraISO.png)
 
-Boot的时候提示`Failed to load ldlinux.c32`
+Boot的时候提示`Failed to load ldlinux.c32`  
 ![Fail to boot](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/ubuntu-ultraISO-fail.jpg)
 
-这里用[Rufus](https://rufus.ie/zh_CN.html)生成安装盘。
+这里用[Rufus](https://rufus.ie/zh_CN.html)生成安装盘。  
 ![Rufus-image-gen](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/rufus-ubuntu.png)
 
-成功启动Live Ubuntu。
+成功启动Live Ubuntu。  
 ![Live Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/ubuntu-live.png)
 
 
@@ -118,7 +118,7 @@ sudo apt-get install -y boot-repair && boot-repair
 在[Boot-Repair](https://help.ubuntu.com/community/Boot-Repair)工具的图形界面中选择`Recommand repair`。  
 ![boot-repair界面](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/boot-repair.png)
 
-等待程序完成后，重启，自动进入新的Ubuntu Grub引导界面。
+等待程序完成后，重启，自动进入新的Ubuntu Grub引导界面。  
 ![Ubuntu新的引导界面](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/ubuntu-grub.jpg)
 
 可以看到Ubuntu与XP双系统成功实现。
@@ -138,7 +138,7 @@ sudo apt-get install -y boot-repair && boot-repair
 ![xpU盘安装失败](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/windows-xp-install-fail.jpg)
 
 ### 6.2 WinNTSetup，进入安装界面时蓝屏。
-尝试使用了PE下的工具WinNTSetup。
+尝试使用了PE下的工具WinNTSetup。  
 ![WinNtSetup](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/WinNtSetup.png)
 
 重启后，在Windows XP安装程序加载完毕后蓝屏，这里忘了拍照，网上找个相同错误码的图片，侵联删。  
