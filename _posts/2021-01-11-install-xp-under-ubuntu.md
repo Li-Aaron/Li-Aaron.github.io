@@ -125,7 +125,7 @@ sudo apt-get install -y boot-repair && boot-repair
 
 ## 5. 后记
 
-暗黑走起！
+暗黑走起！  
 ![Diablo](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/diablo-start.jpg)
 
 
