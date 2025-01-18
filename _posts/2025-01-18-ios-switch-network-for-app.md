@@ -1,19 +1,19 @@
 ---
 layout: post
-title: IOS 为APP单独设置走不同的流量卡
+title: iOS 为 APP 单独设置流量卡
 date: 2025-1-18 13:00:00.000000000 +08:00
 description: 本文介绍在IOS中，如何在启动APP的时候自动切换数据流量走哪个号码（针对不同的APP使用不同的流量卡）。
 author: aaron-li
-categories: [玩机攻略, IOS]
+categories: [玩机攻略, iOS]
 tags: [ios, 流量, 自动化]
 ---
 
 由于中午需要用流量看催困视频，但是平时流量主卡并不是B站的免流卡。  
 而手动切换后经常忘了换回来导致免流卡流量爆炸，通过一番折腾，找到了个针对B站自动切换流量的方法。
 
-本方法针对IOS，任意APP均可。
+本方法针对iOS，任意APP均可。
 
-打开快捷方式：
+打开快捷指令：
 
 ![0](/assets/img/posts/2025-01-18-ios-switch-network-for-app/0.png)
 
