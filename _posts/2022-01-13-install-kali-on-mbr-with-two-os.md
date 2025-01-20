@@ -38,7 +38,7 @@ tags: [thinkpad, thinkpad x201i, refresh, ubuntu, windows xp, kali]
 ![Try Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/try-ubuntu.png)  
 
 Ubuntu 18.04.05 Live CD自带gparted，`ALT+T`打开terminal后，键入  
-```Bash
+```bash
 sudo gparted
 ```
 
@@ -112,14 +112,14 @@ sudo gparted
 ### 3.1 直接修改Kali Grub
 如果不想换grub，可以直接更改grub中的启动顺序。  
 
-```Bash
+```bash
 sudo vim /etc/default/grub
 ```
 将`GRUB_DEFAULT`修改为3（对应上面Kali-Grub中第四项Ubuntu）。  
 
 ![kali-grub-edit](/assets/img/posts/2022-01-13-install-kali-on-mbr-with-two-os/kali-grub-edit.png)
 
-```Bash
+```bash
 sudo update-grub2
 ```
 

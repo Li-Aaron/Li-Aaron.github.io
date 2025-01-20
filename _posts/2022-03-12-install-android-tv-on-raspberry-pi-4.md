@@ -51,7 +51,7 @@ Image可通过其[教程](https://konstakang.com/devices/rpi4/LineageOS18-ATV/)�
 Konstakang的[教程](https://konstakang.com/devices/rpi4/LineageOS18-ATV/)中有关于初始化的部分，因为是英文的，这里简单讲一下。  
 
 键盘按键对应功能：
-```cmd
+```
 F1 = 主页
 F2 = 返回
 F3 = 多任务
@@ -90,7 +90,7 @@ ssh -i my_private_key root@192.168.1.xxx
 ### 时区设置
 
 这个系统貌似有BUG，设置时区无法保存，可以通过如下命令设置。
-```base
+```bash
 adb shell "setprop persist.sys.timezone Asia/Shanghai"
 ```
 
@@ -205,7 +205,7 @@ dumpsys input
 adb pull /vendor/usr/keylayout/Generic.kl
 ```
 命令获取该文件，并在文件中增加  
-```text
+```
 key usage 0x070029 BACK
 ```
 
@@ -234,7 +234,7 @@ LineageOS 19之后HW decoding好了，但是Kodi播放4K的视频还是爆卡，
 
 LinageOS自带的ntp也不能正常同步，可以通过如下命令更改NTP服务器。
 
-```
+```bash
 adb root
 adb shell "settings put global ntp_server ntp.ntsc.ac.cn"
 ```

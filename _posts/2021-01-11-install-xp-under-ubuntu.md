@@ -58,7 +58,7 @@ Boot的时候提示`Failed to load ldlinux.c32`
 ![Try Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/try-ubuntu.png)
 
 Ubuntu 18.04.05 Live CD自带gparted，`ALT+T`打开terminal后，键入
-```Bash
+```bash
 sudo gparted
 ```
 

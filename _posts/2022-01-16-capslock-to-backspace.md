@@ -12,7 +12,7 @@ tags: [capslock, backspace]
 
 在Command Prompt（命令提示行）下输入，然后敲回车。
 
-```cmd
+```bat
 @echo off
 reg add "hklm\system\currentcontrolset\control\keyboard layout" /v "ScanCode Map" /t REG_BINARY /d "0000000000000000020000000e003a0000000000" /f
 echo "please reboot system"

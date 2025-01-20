@@ -40,7 +40,7 @@ XP里面有很多老游戏，不想直接升级成Win7，这次试一试怎么�
 ![Try Ubuntu](/assets/img/posts/2021-01-11-install-xp-under-ubuntu/try-ubuntu.png)  
 
 Ubuntu 18.04.05 Live CD自带gparted，`ALT+T`打开terminal后，键入  
-```Bash
+```bash
 sudo gparted
 ```
 

@@ -28,8 +28,8 @@ https://www.virtualbox.org/wiki/Downloads)可能会存在EFI系统不能正常�
 
 根据MFST online doc（上面引用），首先我们需要对Universal APP进行提权，赋予APP `SE_SYSTEM_ENVIRONMENT_NAME` 权限，注意这个APP需要运行在Admin下（使用管理员权限运行）。
 ```c
-  HANDLE   hToken;
-  PHANDLE  phToken = &hToken;
+  HANDLE   hToken;
+  PHANDLE  phToken = &hToken;
   //
   // Grant Privilege
   //
