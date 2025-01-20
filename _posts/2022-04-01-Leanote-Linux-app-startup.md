@@ -46,6 +46,7 @@ StartupWMClass=leanote-desktop
 ```
 
 效果如下：
+
 ![1](/assets/img/posts/2022-04-01-Leanote-Linux-app-startup/1.png)  
 
 ![2](/assets/img/posts/2022-04-01-Leanote-Linux-app-startup/2.png)
