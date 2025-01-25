@@ -34,7 +34,7 @@ ASL 示例如下（这是生成一个Fibonacci数列的递推）：
     Field (TEST, ByteAcc, NoLock, Preserve) {
       ITER, 32,  // Iteration
       //
-      // 16 bit x 32 = 1024 bits.
+      // 16 bit x 32 = 512 bits.
       //
       IBUF, 512, // Buffer
     }
@@ -43,7 +43,7 @@ ASL 示例如下（这是生成一个Fibonacci数列的递推）：
       // BUFF[0] = 1
       // BUFF[1] = 1
       Store (0x1, Index(BUFF, 0))
-      Store (0x1, Index(BUFF, 2))
+      Store (0x1, Index(BUFF, 2)) //Buffer index is byte, IBUF index is word.
       Store (2, Local0)
       // BUFF[i] = BUFF[i-2] + BUFF[i-1]
       // i in [2, ITER) -- Local0
