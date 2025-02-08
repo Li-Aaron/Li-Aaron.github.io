@@ -10,14 +10,12 @@ tags: [asl]
 
 续上三篇，这一篇实战一下与BIOS C代码结合的内存修改。  
 [ASL语言学习（1）- 基本语法，作用域]({{site.url}}/2023/04/asl-code-intro/)，  
-[ASL语言学习（2）- Debug，常用操作符]({{site.url}}/2023/04/asl-code-intro2/)  
+[ASL语言学习（2）- Debug，常用操作符]({{site.url}}/2023/04/asl-code-intro2/)，  
 [ASL语言学习（3）- 隐式转换，Method调用]({{site.url}}/2023/04/asl-code-intro3/)  
 
-Reference:
-
-[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)
-
-[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)
+Reference:  
+[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)  
+[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)  
 
 # OperationRegion 的运用方式
 

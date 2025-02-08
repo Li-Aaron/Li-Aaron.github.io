@@ -10,11 +10,9 @@ tags: [asl]
 
 续上一篇[ASL语言学习（1）- 基本语法，作用域]({{site.url}}/2023/04/asl-code-intro/)，这一篇我们介绍ASL语言的一种debug方法，以及一些常用操作符的使用。
 
-Reference:
-
-[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)
-
-[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)
+Reference:  
+[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)  
+[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)  
 
 # Debug under Linux (Ubuntu)
 
@@ -66,7 +64,7 @@ Namespace Access:
 
 help message 提供了很多命令，这里介绍下常用的几个命令。
 
-### `find`
+### find
 查找Object的NamePath，同时可以预览其值。示例如下：
 
 ```bash
@@ -92,7 +90,7 @@ help message 提供了很多命令，这里介绍下常用的几个命令。
                        \_SB.TEC7 Method       00000000eb393881 007 Args 0 Len 001D Aml 00000000567e0efb
 ```
 
-### `dump`
+### dump
 显示一个Object的所有信息。示例如下：
 
 ```bash
@@ -117,7 +115,7 @@ Attached Object 00000000d43decde:
          Parent Node : 0000000085cc641a [BUF1]
 ```
 
-### `execute`, `evaluate`
+### execute, evaluate
 这两个是同一个命令，执行一个method。
 
 ```bash
@@ -155,7 +153,9 @@ Evaluation of \_SB.TEC1 returned object 00000000c727936a, external buffer length
  [String] Length 0B = "Hello World"
 ```
 
-### `debug`
+> 注：可以用 `ev` 作为 `evaluate` 的缩写
+
+### debug
 `Debug`和`Execute`执行方法一样，不同的是可以单步运行。
 
 ```bash

@@ -12,11 +12,9 @@ tags: [asl]
 [ASL语言学习（1）- 基本语法，作用域]({{site.url}}/2023/04/asl-code-intro/)，  
 [ASL语言学习（2）- Debug，常用操作符]({{site.url}}/2023/04/asl-code-intro2/)  
 
-Reference:
-
-[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)
-
-[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)
+Reference:  
+[ACPI Source Language (ASL) Tutorial](https://acpica.org/sites/acpica/files/asl_tutorial_v20190625.pdf)  
+[ACPI Source Language (ASL) Reference](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html)  
 
 # [隐式转换](https://uefi.org/specs/ACPI/6.5/19_ASL_Reference.html#implicit-data-type-conversions)
 
