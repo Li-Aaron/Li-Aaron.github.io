@@ -1,11 +1,11 @@
 ---
 name: aaron-blog-style
-description: "Use when writing or rewriting Chinese technical blog posts in Aaron's personal style, especially for document/blog-*.md or when asked to imitate posts from document/_posts. Covers Leanote, self-hosting, debugging, deployment, proxy, iOS/Android, RAG, and similar practical engineering notes."
+description: "Use when summarizing or rewriting descriptions for the Chinese personal blog posts under _posts, or when writing new posts in Aaron's practical style. The posts cover Windows/Linux setup, old-computer upgrades, Raspberry Pi and NAS self-hosting, proxies and network access, Leanote and RSS services, iOS/Android customization, home renovation and buying notes, 3D printing, dog keeping, and ASL/ACPI debugging with EDK2, OVMF, and QEMU."
 ---
 
 # Aaron Blog Style
 
-Use this skill when the task is to write or rewrite a Chinese technical blog post so it reads like the posts under `document/_posts`.
+Use this skill when the task is to write or rewrite a Chinese technical blog post so it reads like the posts under `_posts`.
 
 ## Core Style
 
@@ -59,6 +59,19 @@ Some posts also skip `前言` and go straight into `## 1 ...` if the topic is ve
 - Mention tradeoffs in a plain way: what works, what is troublesome, what is enough for now.
 - If the topic is broad, add short bullets or lists to improve readability.
 
+## Front Matter Description
+
+When asked to summarize posts or rewrite `description` fields in `_posts`:
+
+- Read the article body and headings before writing; do not infer the content from the title alone.
+- Write one concise Chinese sentence, usually starting with `本文介绍...`, `本文记录...`, or `记录...`.
+- Summarize the actual practical subject and the main steps, tools, or conclusions covered by the post.
+- Prefer roughly 30-80 Chinese characters; include specific product, platform, command, or technology names when they help readers identify the article.
+- Remove duplicated wording, vague promotion, unnecessary background, and claims not supported by the article.
+- Keep useful caveats, failed attempts, limitations, or personal recommendations when they are a meaningful part of the post.
+- Add `description` after `date` when it is missing, and preserve all other front matter and article content.
+- For a batch rewrite, update every requested post consistently and verify that each one has exactly one `description` field.
+
 ## Markers Found In `_posts`
 
 These are representative patterns from the reference posts and should guide the tone:
@@ -103,4 +116,4 @@ When possible, produce:
 - Practical notes, recommendations, or caveats
 - A brief ending or update note
 
-The result should feel like a real post from `document/_posts`: practical, direct, and useful, with a small amount of personal experience mixed in.
+The result should feel like a real post from `_posts`: practical, direct, and useful, with a small amount of personal experience mixed in.
